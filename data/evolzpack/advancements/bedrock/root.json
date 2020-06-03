@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": "Minecraft Bedrock advancements",
+        "description": "Take your time",
+        "background": "minecraft:textures/block/cobblestone.png",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "task"
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:furnace"
+                    }
+                ]
+            }
+        }
+	}
+}
