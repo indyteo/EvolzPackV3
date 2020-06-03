@@ -1,0 +1,30 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather"
+		},
+		"title": {
+			"translate": "Cow tipper"
+		},
+		"description": {
+			"translate": "Get leather by all means!"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"get_leather": {
+			"trigger": "minecraft:inventory_changed",
+			"condition": {
+				"item": [
+				{
+					"item": "minecraft:leather"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/root"
+}

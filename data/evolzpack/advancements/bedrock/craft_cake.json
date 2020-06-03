@@ -1,0 +1,30 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:cake"
+		},
+		"title": {
+			"translate": "Bake a cake !"
+		},
+		"description": {
+			"translate": "Bake a cake like grandma !"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"craft_a_cake": {
+			"trigger": "minecraft:inventory_changed",
+			"condition": {
+				"item": [
+				{
+					"item": "minecraft:cake"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/root"
+}

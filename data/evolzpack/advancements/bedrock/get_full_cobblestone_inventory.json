@@ -1,0 +1,34 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:cobblestone"
+		},
+		"title": {
+			"translate": "My goron friend"
+		},
+		"description": {
+			"translate": "Get a inventory full of cobblestone"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "condition": {
+        "item": [
+          {
+            "item": "minecraft:cobblestone",
+            "count": {
+              "min": 2304
+            }
+          }
+          
+        ]
+      }
+    }
+  },
+	"parent": "evolzpack:bedrock/root"
+}

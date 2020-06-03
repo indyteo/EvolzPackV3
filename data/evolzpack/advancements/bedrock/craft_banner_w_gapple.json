@@ -1,0 +1,28 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:loom"
+		},
+		"title": {
+			"translate": "Expensive investments"
+		},
+		"description": {
+			"translate": "Craft a enchanted golden apple pattern"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"craft_banner_pattern": {
+			"trigger": "minecraft:inventory_changed",
+			"condition": {
+				"item": {
+					"item": "minecraft:mojang_banner_pattern"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/root"
+}

@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:hay_block"
+		},
+		"title": {
+			"translate": "Little horksey !"
+		},
+		"description": {
+			"translate": "Breed a horse and a donkey"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:bred_animals",
+			"condition": {
+				"child": {
+					"type": "minecraft:mule"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/root"
+}
