@@ -4,10 +4,10 @@
 			"item": "minecraft:cake"
 		},
 		"title": {
-			"translate": "Bake a cake !"
+			"translate": "The Cake is a Lie"
 		},
 		"description": {
-			"translate": "Bake a cake like grandma !"
+			"translate": "Bake a cake like grandma!"
 		},
 		"frame": "task",
 		"show_toast": true,
@@ -18,9 +18,9 @@
 		"craft_a_cake": {
 			"trigger": "minecraft:inventory_changed",
 			"condition": {
-				"item": [
-				{
-					"item": "minecraft:cake"
+				"items": [
+					{
+						"item": "minecraft:cake"
 					}
 				]
 			}

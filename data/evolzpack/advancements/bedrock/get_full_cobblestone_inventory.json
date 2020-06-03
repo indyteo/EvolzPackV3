@@ -4,7 +4,7 @@
 			"item": "minecraft:cobblestone"
 		},
 		"title": {
-			"translate": "My goron friend"
+			"translate": "My Goron Friend"
 		},
 		"description": {
 			"translate": "Get a inventory full of cobblestone"
@@ -15,20 +15,20 @@
 		"hidden": false
 	},
 	"criteria": {
-    "example": {
-      "trigger": "minecraft:inventory_changed",
-      "condition": {
-        "item": [
-          {
-            "item": "minecraft:cobblestone",
-            "count": {
-              "min": 2304
-            }
-          }
-          
-        ]
-      }
-    }
-  },
+		"collect_cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"condition": {
+				"items": [
+					{
+						"item": "minecraft:cobblestone",
+						"count": {
+							"min": 2304
+						}
+					}
+					
+				]
+			}
+		}
+	},
 	"parent": "evolzpack:bedrock/root"
 }

@@ -4,7 +4,7 @@
 			"item": "minecraft:leather"
 		},
 		"title": {
-			"translate": "Cow tipper"
+			"translate": "Cow Tipper"
 		},
 		"description": {
 			"translate": "Get leather by all means!"
@@ -18,9 +18,9 @@
 		"get_leather": {
 			"trigger": "minecraft:inventory_changed",
 			"condition": {
-				"item": [
-				{
-					"item": "minecraft:leather"
+				"items": [
+					{
+						"item": "minecraft:leather"
 					}
 				]
 			}
