@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "evolzpack:red_sandstone/to_cut_red_sandstone_stonecutting"
+  },
+  "result": "minecraft:cut_red_sandstone",
+  "count": 1
+}

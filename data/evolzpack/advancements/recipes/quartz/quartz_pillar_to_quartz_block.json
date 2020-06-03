@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:quartz/quartz_pillar_to_quartz_block"
+		]
+	},
+	"criteria": {
+		"has_quartz_block": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "quartz_block"
+					}
+				]
+			}
+		},
+		"has_quartz_pillar": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "quartz_pillar"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:quartz/quartz_pillar_to_quartz_block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_quartz_block",
+			"has_the_recipe"
+		],
+		[
+			"has_quartz_pillar",
+			"has_the_recipe"
+		]
+	]
+}

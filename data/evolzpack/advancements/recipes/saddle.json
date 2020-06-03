@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:saddle"
+		]
+	},
+	"criteria": {
+		"tame_horse": {
+			"trigger": "tame_animal",
+			"condition": {
+				"entity": [
+					{
+						"entity": "horse"
+					}
+				]
+			}
+		},
+		"has_saddle": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "saddle"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:saddle"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"tame_horse",
+			"has_the_recipe"
+		],
+		[
+			"has_saddle",
+			"has_the_recipe"
+		]
+	]
+}

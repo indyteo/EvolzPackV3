@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:quartz/smooth_quartz_to_quartz_pillar"
+		]
+	},
+	"criteria": {
+		"has_smooth_quartz": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "smooth_quartz"
+					}
+				]
+			}
+		},
+		"has_quartz_pillar": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "quartz_pillar"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:quartz/smooth_quartz_to_quartz_pillar"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_smooth_quartz",
+			"has_the_recipe"
+		],
+		[
+			"has_quartz_pillar",
+			"has_the_recipe"
+		]
+	]
+}

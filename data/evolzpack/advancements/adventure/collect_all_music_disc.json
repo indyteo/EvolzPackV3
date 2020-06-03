@@ -1,0 +1,152 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "jukebox"
+		},
+		"title": {
+			"translate": "Just Dance"
+		},
+		"description": {
+			"translate": "Collect all music disc"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"criteria": {
+		"collect_music_disc_13": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_13"
+					}
+				]
+			}
+		},
+		"collect_music_disc_cat": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_cat"
+					}
+				]
+			}
+		},
+		"collect_music_disc_blocks": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_blocks"
+					}
+				]
+			}
+		},
+		"collect_music_disc_chirp": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_chirp"
+					}
+				]
+			}
+		},
+		"collect_music_disc_far": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_far"
+					}
+				]
+			}
+		},
+		"collect_music_disc_mall": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_mall"
+					}
+				]
+			}
+		},
+		"collect_music_disc_mellohi": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_mellohi"
+					}
+				]
+			}
+		},
+		"collect_music_disc_stal": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_stal"
+					}
+				]
+			}
+		},
+		"collect_music_disc_strad": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_strad"
+					}
+				]
+			}
+		},
+		"collect_music_disc_ward": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_ward"
+					}
+				]
+			}
+		},
+		"collect_music_disc_11": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_11"
+					}
+				]
+			}
+		},
+		"collect_music_disc_wait": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_wait"
+					}
+				]
+			}
+		},
+		"collect_music_disc_pigstep": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "music_disc_pigstep"
+					}
+				]
+			}
+		}
+	},
+	"parent": "minecraft:adventure/root",
+	"rewards": {
+		"experience": 150
+	}
+}

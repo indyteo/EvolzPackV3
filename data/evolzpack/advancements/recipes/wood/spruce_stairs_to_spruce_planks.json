@@ -1,0 +1,32 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:wood/spruce_stairs_to_spruce_planks"
+		]
+	},
+	"criteria": {
+		"has_spruce_stairs": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "spruce_stairs"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:wood/spruce_stairs_to_spruce_planks"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_spruce_stairs",
+			"has_the_recipe"
+		]
+	]
+}

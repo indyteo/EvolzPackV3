@@ -1,0 +1,32 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:wood/jungle_slab_to_jungle_planks"
+		]
+	},
+	"criteria": {
+		"has_jungle_slab": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "acacia_slab"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:wood/jungle_slab_to_jungle_planks"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_jungle_slab",
+			"has_the_recipe"
+		]
+	]
+}

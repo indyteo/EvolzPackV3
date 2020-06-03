@@ -1,0 +1,313 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_rose"
+        },
+        "title": "Aggressive Head's collection",
+        "description": "Collect Them All",
+        "background": "minecraft:textures/block/stone_bricks.png",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "zombie": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:zombie_head"
+                    }
+                ]
+            }
+        },
+        "skeleton": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skeleton_skull"
+                    }
+                ]
+            }
+        },
+        "wither_skeleton": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wither_skeleton_skull"
+                    }
+                ]
+            }
+        },
+        "creeper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:creeper_head"
+                    }
+                ]
+            }
+        },
+        "dragon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dragon_head"
+                    }
+                ]
+            }
+        },
+        "zombie_pigmen": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"6540c046-d6ea-4aff-9766-32a54ebe6958\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ==\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "blaze": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"7ceb88b2-7f5f-4399-abb9-7068251baa9d\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "magma_cube": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"96aced64-5b85-4b99-b825-53cd7a9f9726\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "ghast": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"807f287f-6499-4e93-a887-0a298ab3091f\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2YTcyMTM4ZDY5ZmJiZDJmZWEzZmEyNTFjYWJkODcxNTJlNGYxYzk3ZTVmOTg2YmY2ODU1NzFkYjNjYzAifX19\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "enderman": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"0de98464-1274-4dd6-bba8-370efa5d41a8\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "shulker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"cda568d7-46da-4468-a46a-4c1ed73faf53\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU3MzgzMmUyNzJmODg0NGM0NzY4NDZiYzQyNGEzNDMyZmI2OThjNThlNmVmMmE5ODcxYzdkMjlhZWVhNyJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "endermite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"33c425bb-a294-4e01-9b5b-a8ad652bb5cf\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRhYWZmYTRjMDllMmVhZmI4NWQzNTIyMTIyZGIwYWE0NTg3NGJlYTRlM2Y1ZTc1NjZiNGQxNjZjN2RmOCJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "spider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"8bdb71d0-4724-48b2-9344-e79480424798\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ==\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "cave_spider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"39173a7a-c957-4ec1-ac1a-43e5a64983df\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE2NDVkZmQ3N2QwOTkyMzEwN2IzNDk2ZTk0ZWViNWMzMDMyOWY5N2VmYzk2ZWQ3NmUyMjZlOTgyMjQifX19\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "slime": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"8c0144de-15a8-486b-8618-ec9cf859c825\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU5NmQ4ZTczMWE2ZTEyZmY5ZDQzNWVjYjE0ZjRlMWU3ZWYxZTU0MmM5ZjVhN2QxZjdlYzJlYzBkZjcifX19\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "stray": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"644c9bad-958b-43ce-9d2f-199d85be607c\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhkZGY3NmU1NTVkZDVjNGFhOGEwYTVmYzU4NDUyMGNkNjNkNDg5YzI1M2RlOTY5ZjdmMjJmODVhOWEyZDU2In19fQ==\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "husk": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"2e387bc6-774b-4fda-ba22-eb54a26dfd9e\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc3MDY4MWQxYTI1NWZiNGY3NTQ3OTNhYTA1NWIyMjA0NDFjZGFiOWUxMTQxZGZhNTIzN2I0OTkzMWQ5YjkxYyJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "phantom": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"9290add8-c291-4a5a-8f8a-594f165406a3\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U5NTE1M2VjMjMyODRiMjgzZjAwZDE5ZDI5NzU2ZjI0NDMxM2EwNjFiNzBhYzAzYjk3ZDIzNmVlNTdiZDk4MiJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "silverfish": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"30a4cd5c-5754-4db8-8960-18022a74627d\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5MWRhYjgzOTFhZjVmZGE1NGFjZDJjMGIxOGZiZDgxOWI4NjVlMWE4ZjFkNjIzODEzZmE3NjFlOTI0NTQwIn19fQ==\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "charged_creeper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"699f679e-4b57-4ee4-9e2d-f4ff83dd9da5\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDcxZjU5ZTNmOTVmZDBiOTlmOTY2MDYxYmQzN2VjNDFhYmRlNzQzMjE5MzBmZDQ0ZDUyODU0Y2I0MGQzZDEyMyJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "guardian": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"e57e58c0-bb9c-4cb0-a0a2-c137dfc91164\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZiNjc1Y2I1YTdlM2ZkMjVlMjlkYTgyNThmMjRmYzAyMGIzZmE5NTAzNjJiOGJjOGViMjUyZTU2ZTc0In19fQ==\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "elder_guardian": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"f2e933a7-614f-44e0-bf18-289b102104ab\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM3OTc0ODJhMTRiZmNiODc3MjU3Y2IyY2ZmMWI2ZTZhOGI4NDEzMzM2ZmZiNGMyOWE2MTM5Mjc4YjQzNmIifX19\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "drowned": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"2f169660-61be-46bd-acb5-1abef9fe5731\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmN2NjZjYxZGJjM2Y5ZmU5YTYzMzNjZGUwYzBlMTQzOTllYjJlZWE3MWQzNGNmMjIzYjNhY2UyMjA1MSJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "wither": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"119c371b-ea16-47c9-ad7f-23b3d894520a\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RmNzRlMzIzZWQ0MTQzNjk2NWY1YzU3ZGRmMjgxNWQ1MzMyZmU5OTllNjhmYmI5ZDZjZjVjOGJkNDEzOWYifX19\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "invulnerable_wither": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"d532e209-ea0b-43da-a67d-4b735274e03c\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0ZTFjM2UzMTVjOGQ4ZmZmYzM3OTg1YjY2ODFjNWJkMTZhNmY5N2ZmZDA3MTk5ZThhMDVlZmJlZjEwMzc5MyJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "blue_wither": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"b6c43469-8904-4855-a024-813ac28aa2a5\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0ZjQ5NTM1YTI3NmFhY2M0ZGM4NDEzM2JmZTgxYmU1ZjJhNDc5OWE0YzA0ZDlhNGRkYjcyZDgxOWVjMmIyYiJ9fX0=\"}]}}}"
+                    }
+                ]
+            }
+        },
+        "invulnerable_blue_wither": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Id:\"6943ecc3-4ffb-4d2d-803d-528eb5e9f6b6\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRhZmIyM2VmYzU3ZjI1MTg3OGU1MzI4ZDExY2IwZWVmODdiNzljODdiMjU0YTdlYzcyMjk2ZjkzNjNlZjdjIn19fQ==\"}]}}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "minecraft:loot/amh"
+        ],
+        "experience": 10000
+    }
+}

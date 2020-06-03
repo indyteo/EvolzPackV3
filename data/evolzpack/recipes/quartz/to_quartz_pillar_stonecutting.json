@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "evolzpack:quartz/to_quartz_pillar_stonecutting"
+  },
+  "result": "minecraft:quartz_pillar",
+  "count": 1
+}

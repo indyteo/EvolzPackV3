@@ -1,0 +1,32 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:smooth_red_sandstone"
+		]
+	},
+	"criteria": {
+		"has_red_sandstone_slab": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "red_sandstone_slab"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:smooth_red_sandstone"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_red_sandstone_slab",
+			"has_the_recipe"
+		]
+	]
+}

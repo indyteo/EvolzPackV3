@@ -1,0 +1,45 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "cod"
+		},
+		"title": {
+			"translate": "Fish and Chips"
+		},
+		"description": {
+			"translate": "Use a fisherman villager to smelt your fish"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"trade_cod": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"item": {
+					"item": "cooked_cod"
+				}
+			}
+		},
+		"trade_salmon": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"item": {
+					"item": "cooked_salmon"
+				}
+			}
+		}
+	},
+	"parent": "minecraft:adventure/trade",
+	"rewards": {
+		"experience": 50
+	},
+	"requirements": [
+		[
+			"trade_cod",
+			"trade_salmon"
+		]
+	]
+}

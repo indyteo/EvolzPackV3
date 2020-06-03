@@ -1,0 +1,182 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lily_pad"
+		},
+		"title": "Swamp Villager",
+		"description": "Swamp Villager Collection",
+        "announce_to_chat": true,
+        "frame": "goal"
+	},
+	"parent": "custom:villager/root",
+	"criteria": {
+		"swamp_armorer_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"d9d2d9df-0b74-403f-afe6-68fb504bdbf3\",Name:\"Swamp Armorer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU4YzNhMTQ5M2Q0N2IwNGNjYTkzZjc3OWMwYjY4YTRkZjRkYjI0NDc3OGExYTE2OTFkOWJlYWE1ZmQwYjdlZSJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_butcher_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"56c54193-b934-49f5-8ad1-d8968d09df6e\",Name:\"Swamp Butcher\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MWFjNjRhZmVhZmY5OTk5NGE4ZWRhYThiM2E0MGE2NjIzZDQxODAxZjE4ZGM5YmU4NmMxZTNlZmFjOWJhNyJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_cartographer_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"4249baa0-17cc-4f9f-b6f4-d27278ddd385\",Name:\"Swamp Cartographer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTEyMDc3ZDE4OGZmODRiN2NmYjNmZjJjMDk0ZTk1ZjViMmM5YTgxZGU3MDQwOGZjYTFjNzc2ZGFjNTk0ZTY4NSJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_cleric_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"b5957dcd-d268-4d08-9178-6c3272e78785\",Name:\"Swamp Cleric\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDEwMmYzYjgzMWI4MTBhMWVkNDI1ZWY5MTQwOGE2ZjQ1OTkwN2ExZjc4OWNiODk1ZDY2NTMyYWVkMjM4ODg0NSJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_farmer_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"aa0c6958-b93a-4c53-8654-affb9d16fd03\",Name:\"Swamp Farmer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgwNzI3ZDM5MGMzYjM0ZDgwOWE0ZDU5MDhjNThiNWVkNmE4OTFiOGJkZDBiY2ExNjA2NWNkNTVmMGQ4ZGUwYyJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_ficherman_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"61f96c03-c688-4a6d-aae5-e9f7f0fde904\",Name:\"Swamp Fisherman\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY1ZDM4MTlhNjVkYjc5YzQ1ZmQwMDE0MWMwODgyZTQ3YWQyMzRjMGU1Zjg5OTJiZjRhZjE4Y2VkMGUxZWNkYyJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_fletcher_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"2720125b-932e-4e9f-9e68-d82703fcbda5\",Name:\"Swamp Fletcher\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJkNjc3NjY4ODQwN2FhYzFiNDUxY2Q2OWEwYThiZmRlYzFmOWE3MDFhYjg2YTM5ZDM3NzdlNDQ4NjM5NTAzZSJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_leatherworker_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"79fe4f08-07ec-4489-8658-d88679364f3d\",Name:\"Swamp Leatherworker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFkN2E5ZThmZTJiZGZlYTAzYmIxZjlmYWJlNDVmYjEwY2Y2OWE3MmUzNzYwZTVmZDlhNzBmMzM4NGM1MzZhZCJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_librarian_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"4b95aac9-f271-4f92-9d08-58123186cbf7\",Name:\"Swamp Librarian\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYxZjU3NjJhM2ZhZjUyOTA0NGNmNDU2MDU0YjhlNmQ2YmE4YjI4NzMwOGE4YTA4YjI4NzA3MGY4ZDE2ZWZlNSJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_mason_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"79fe4f08-07ec-4489-8658-d88679364f3d\",Name:\"Swamp Mason\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFkN2E5ZThmZTJiZGZlYTAzYmIxZjlmYWJlNDVmYjEwY2Y2OWE3MmUzNzYwZTVmZDlhNzBmMzM4NGM1MzZhZCJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_nitwit_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"79fe4f08-07ec-4489-8658-d88679364f3d\",Name:\"Swamp Nitwit\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFkN2E5ZThmZTJiZGZlYTAzYmIxZjlmYWJlNDVmYjEwY2Y2OWE3MmUzNzYwZTVmZDlhNzBmMzM4NGM1MzZhZCJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_shepherd_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"bb1f04a1-fae6-4a2d-8382-a569c98ee893\",Name:\"Swamp Shepherd\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNmY2IwNTJmNDAxZWQ3NTU5NjZiNTdhNjVhODYwNGI2NDdkYmUzZGQzMmI5YTRiMmI5Y2FlNzAxZWRhYzllNiJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_toolsmith_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"79fe4f08-07ec-4489-8658-d88679364f3d\",Name:\"Swamp Toolsmith\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFkN2E5ZThmZTJiZGZlYTAzYmIxZjlmYWJlNDVmYjEwY2Y2OWE3MmUzNzYwZTVmZDlhNzBmMzM4NGM1MzZhZCJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"79fe4f08-07ec-4489-8658-d88679364f3d\",Name:\"Swamp Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFkN2E5ZThmZTJiZGZlYTAzYmIxZjlmYWJlNDVmYjEwY2Y2OWE3MmUzNzYwZTVmZDlhNzBmMzM4NGM1MzZhZCJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"swamp_weaponsmith_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"56b755ad-6ff0-440c-9c15-7b1895db9ef3\",Name:\"Swamp Weaponsmith\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhjN2M1Njk0OGFkNzcxOGZlOTMyYjI3MDExNWVlNjJjZDkwYTBiMTk1ZGEzODZjNGVhNDJhNjlhYTE2YTdmYiJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		}
+	},
+    "rewards": {
+        "experience": 1000
+    }
+}

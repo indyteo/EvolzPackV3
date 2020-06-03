@@ -1,0 +1,29 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "shulker_box"
+		},
+		"title": {
+			"translate": "Magic Box"
+		},
+		"description": {
+			"translate": "Craft a shulker box from two shulker shells and a chest"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"craft_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "shulker_box"
+					}
+				]
+			}
+		}
+	},
+	"parent": "minecraft:end/find_end_city"
+}

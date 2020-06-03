@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:clay_from_dirt_and_sand"
+		]
+	},
+	"criteria": {
+		"has_dirt": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dirt"
+					}
+				]
+			}
+		},
+		"has_sand": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "sand"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:clay_from_dirt_and_sand"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_sand",
+			"has_the_recipe"
+		],
+		[
+			"has_dirt",
+			"has_the_recipe"
+		]
+	]
+}

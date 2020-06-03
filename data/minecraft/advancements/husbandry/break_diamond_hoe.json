@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_hoe",
+      "nbt": "{Damage:2031}"
+    },
+    "title": {
+      "translate": "advancements.husbandry.netherite_hoe.title"
+    },
+    "description": "Enchant a Netherite hoe with at least Unbreaking III and Mending, use it until 1 durability, and then reevaluate your life choices",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "break_netherite_hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 1,
+        "item": {
+          "item": "minecraft:netherite_hoe",
+          "enchantments": [
+            {
+              "enchantment": "minecraft:unbreaking",
+              "levels": {
+                "min": 3
+              }
+            },
+            {
+              "enchantment": "minecraft:mending",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+    }
+  },
+  "requirements": [
+    [
+      "break_netherite_hoe"
+    ]
+  ]
+}

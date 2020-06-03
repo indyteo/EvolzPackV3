@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:quartz/chiseled_quartz_block_to_quartz_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_quartz_block": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "quartz_block"
+					}
+				]
+			}
+		},
+		"has_chiseled_quartz_block": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "chiseled_quartz_block"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:quartz/chiseled_quartz_block_to_quartz_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_quartz_block",
+			"has_the_recipe"
+		],
+		[
+			"has_chiseled_quartz_block",
+			"has_the_recipe"
+		]
+	]
+}

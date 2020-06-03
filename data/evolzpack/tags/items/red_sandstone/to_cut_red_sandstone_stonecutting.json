@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:smooth_red_sandstone",
+    "minecraft:chiseled_red_sandstone"
+  ]
+}

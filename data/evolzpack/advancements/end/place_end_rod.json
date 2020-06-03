@@ -1,0 +1,28 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "end_rod"
+		},
+		"title": {
+			"translate": "Some Light in Darkness"
+		},
+		"description": {
+			"translate": "Place an end rod in the End to light up your way"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"criteria": {
+		"place_end_rod": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "end_rod",
+				"location": {
+					"dimension": "the_end"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:end/plant_chorus"
+}

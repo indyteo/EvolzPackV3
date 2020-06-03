@@ -1,0 +1,88 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "bone_meal"
+		},
+		"title": {
+			"translate": "Overworld Farmer"
+		},
+		"description": {
+			"translate": "Plant all that can be cultivate and found in the Overworld"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"criteria": {
+		"plant_wheat_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "wheat"
+			}
+		},
+		"plant_beetroots_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "beetroots"
+			}
+		},
+		"plant_pumpkin_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "pumpkin_stem"
+			}
+		},
+		"plant_melon_seeds": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "melon_stem"
+			}
+		},
+		"plant_cocoa_beans": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "cocoa"
+			}
+		},
+		"plant_carrot": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "carrots"
+			}
+		},
+		"plant_potato": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "potatoes"
+			}
+		},
+		"plant_cactus": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "cactus"
+			}
+		},
+		"plant_sugar_cane": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "sugar_cane"
+			}
+		},
+		"plant_red_mushroom": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "red_mushroom"
+			}
+		},
+		"plant_brown": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "brown_mushroom"
+			}
+		}
+	},
+	"parent": "minecraft:husbandry/plant_seed",
+	"rewards": {
+		"experience": 100
+	}
+}

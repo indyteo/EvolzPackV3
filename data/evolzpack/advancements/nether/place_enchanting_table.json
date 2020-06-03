@@ -1,0 +1,28 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "enchanting_table"
+		},
+		"title": {
+			"translate": "Best Enchantments Forever"
+		},
+		"description": {
+			"translate": "Place an enchanting table in the Nether"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"criteria": {
+		"place_enchanting_table": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "enchanting_table",
+				"location": {
+					"dimension": "the_nether"
+				}
+			}
+		}
+	},
+	"parent": "minecraft:nether/root"
+}

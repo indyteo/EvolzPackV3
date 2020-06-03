@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:wood/spruce_wood_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_spruce_wood": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "spruce_wood"
+					}
+				]
+			}
+		},
+		"has_spruce_planks": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "spruce_planks"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:wood/spruce_wood_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_spruce_wood",
+			"has_the_recipe"
+		],
+		[
+			"has_spruce_planks",
+			"has_the_recipe"
+		]
+	]
+}

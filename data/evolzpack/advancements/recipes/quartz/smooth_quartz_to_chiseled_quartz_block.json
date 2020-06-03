@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:quartz/smooth_quartz_to_chiseled_quartz"
+		]
+	},
+	"criteria": {
+		"has_smooth_quartz": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "smooth_quartz"
+					}
+				]
+			}
+		},
+		"has_chiseled_quartz_block": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "chiseled_quartz_block"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:quartz/smooth_quartz_to_chiseled_quartz_block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_smooth_quartz",
+			"has_the_recipe"
+		],
+		[
+			"has_chiseled_quartz_block",
+			"has_the_recipe"
+		]
+	]
+}

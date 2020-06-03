@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:wood/oak_wood_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_oak_wood": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "oak_wood"
+					}
+				]
+			}
+		},
+		"has_oak_planks": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "oak_planks"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:wood/oak_wood_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_oak_wood",
+			"has_the_recipe"
+		],
+		[
+			"has_oak_planks",
+			"has_the_recipe"
+		]
+	]
+}

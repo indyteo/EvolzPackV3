@@ -1,0 +1,22 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    "DAD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "A": {
+      "item": "minecraft:golden_horse_armor"
+    },
+    "B": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_horse_armor"
+  }
+}

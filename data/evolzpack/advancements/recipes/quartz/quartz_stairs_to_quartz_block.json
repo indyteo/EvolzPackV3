@@ -1,0 +1,32 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:quartz/quartz_stairs_to_quartz_block"
+		]
+	},
+	"criteria": {
+		"has_quartz_stairs": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "quartz_stairs"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:quartz/quartz_stairs_to_quartz_block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_quartz_stairs",
+			"has_the_recipe"
+		]
+	]
+}

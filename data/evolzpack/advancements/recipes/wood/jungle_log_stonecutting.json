@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:wood/jungle_log_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_jungle_log": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "jungle_log"
+					}
+				]
+			}
+		},
+		"has_jungle_planks": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "jungle_planks"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:wood/jungle_log_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_jungle_log",
+			"has_the_recipe"
+		],
+		[
+			"has_jungle_planks",
+			"has_the_recipe"
+		]
+	]
+}

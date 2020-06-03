@@ -1,0 +1,32 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:wood/dark_oak_stairs_to_dark_oak_planks"
+		]
+	},
+	"criteria": {
+		"has_dark_oak_stairs": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dark_oak_stairs"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:wood/dark_oak_stairs_to_dark_oak_planks"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_dark_oak_stairs",
+			"has_the_recipe"
+		]
+	]
+}

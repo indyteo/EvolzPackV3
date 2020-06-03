@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+		
+		"conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+									 }
+						}
+						],
+							"name": "minecraft:string"
+				},
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{SkullOwner:{Id:\"701fa2a8-ef2b-46cd-b9d3-6cd16be17bb4\",Name:\"Persian Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MGM3NDYyNjBlZjkxYzk2YjI3MTU5Nzk1ZTg3MTkxYWU3Y2UzZDVmNzY3YmY4Yzc0ZmFhZDk2ODlhZjI1ZCJ9fX0=\"}]}}}"
+						},
+						{
+                            "function": "set_count",
+                            "count": {
+                                "min": -10,
+                                "max": 0
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0.24,
+                                "max": 0.24
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:wood/birch_wood_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_birch_wood": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "birch_wood"
+					}
+				]
+			}
+		},
+		"has_birch_planks": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "birch_planks"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:wood/birch_wood_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_birch_wood",
+			"has_the_recipe"
+		],
+		[
+			"has_birch_planks",
+			"has_the_recipe"
+		]
+	]
+}

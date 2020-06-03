@@ -1,0 +1,28 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "chorus_flower"
+		},
+		"title": {
+			"translate": "End Farmer"
+		},
+		"description": {
+			"translate": "Collect, bring back and plant a chorus flower in the Overworld"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"plant_chorus": {
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "chorus_flower",
+				"location": {
+					"dimension": "overworld"
+				}
+			}
+		}
+	},
+	"parent": "minecraft:end/enter_end_gateway"
+}

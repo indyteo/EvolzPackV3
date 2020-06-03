@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:petrified_oak_slab"
+		]
+	},
+	"criteria": {
+		"has_oak_slab": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "oak_slab"
+					}
+				]
+			}
+		},
+		"has_stone_slab": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "stone_slab"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:petrified_oak_slab"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_oak_slab",
+			"has_the_recipe"
+		],
+		[
+			"has_stone_slab",
+			"has_the_recipe"
+		]
+	]
+}

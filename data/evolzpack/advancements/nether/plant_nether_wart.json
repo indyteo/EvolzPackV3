@@ -1,0 +1,30 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "nether_wart"
+		},
+		"title": {
+			"translate": "Nether Farmer"
+		},
+		"description": {
+			"translate": "Collect, bring back and plant a nether wart in the Overworld"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"plant_nether_wart": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"item": "nether_wart"
+				},
+				"location": {
+					"dimension": "overworld"
+				}
+			}
+		}
+	},
+	"parent": "minecraft:nether/find_fortress"
+}

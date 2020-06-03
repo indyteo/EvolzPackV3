@@ -1,0 +1,29 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "potion",
+			"nbt": "{Potion:\"strong_turtle_master\"}"
+		},
+		"title": {
+			"translate": "Ninja Turtle"
+		},
+		"description": {
+			"translate": "Brew a level two Turtle Master potion"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"criteria": {
+		"brew_turtle_master_potion": {
+			"trigger": "brewed_potion",
+			"conditions": {
+				"potion": "strong_turtle_master"
+			}
+		}
+	},
+	"parent": "evolzpack:husbandry/breed_turtle",
+	"rewards": {
+		"experience": 200
+	}
+}

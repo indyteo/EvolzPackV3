@@ -1,0 +1,31 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "conduit"
+		},
+		"title": {
+			"translate": "Like a Fish !"
+		},
+		"description": {
+			"translate": "Have a conduit power effect"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true,
+		"frame": "challenge"
+	},
+	"criteria": {
+		"conduit_power": {
+			"trigger": "effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:conduit_power": {}
+				}
+			}
+		}
+	},
+	"parent": "minecraft:husbandry/tactical_fishing",
+	"rewards": {
+		"experience": 150
+	}
+}

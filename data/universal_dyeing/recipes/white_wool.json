@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "universal_dyeing:wool"
+        },
+        "O": {
+            "item": "minecraft:white_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:white_wool",
+        "count": 8
+    },
+    "group": "universal_dyeing_wool"
+}

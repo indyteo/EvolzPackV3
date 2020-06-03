@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "grass_path"
+		},
+		"title": {
+			"translate": "Mr Mayor"
+		},
+		"description": {
+			"translate": "Take part in the village's life"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"criteria": {
+		"find_village": {
+			"trigger": "location",
+			"conditions": {
+				"location": {
+					"feature": "village"
+				}
+			}
+		}
+	},
+	"parent": "minecraft:adventure/root"
+}

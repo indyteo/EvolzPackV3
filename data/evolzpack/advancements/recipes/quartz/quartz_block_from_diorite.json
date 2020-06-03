@@ -1,0 +1,32 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:quartz/quartz_block_from_diorite"
+		]
+	},
+	"criteria": {
+		"has_polished_diorite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "polished_diorite"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:quartz/quartz_block_from_diorite"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_polished_diorite",
+			"has_the_recipe"
+		]
+	]
+}

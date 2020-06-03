@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:\"fe868730-4537-4f73-8693-981514d97dbc\",Name:\"Jungle Armorer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzNGY1OWQ5ZGNjYTk2ZDdhNjhiMTUzYjZjMzAxYTRlMDQzZTMzYjUxYzM5YTBmOTQyNDA0N2I0M2JhOGIyOCJ9fX0=\"}]}}}"
+		},
+		"title": "Jungle Armorer Villager",
+		"description": "Jungle Armorer Villager Head",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "custom:villager/jungle_villager",
+	"criteria": {
+		"jungle_armorer_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"fe868730-4537-4f73-8693-981514d97dbc\",Name:\"Jungle Armorer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzNGY1OWQ5ZGNjYTk2ZDdhNjhiMTUzYjZjMzAxYTRlMDQzZTMzYjUxYzM5YTBmOTQyNDA0N2I0M2JhOGIyOCJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

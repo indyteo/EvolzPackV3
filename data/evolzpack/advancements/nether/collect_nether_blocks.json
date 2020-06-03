@@ -1,0 +1,123 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "nether_wart_block"
+		},
+		"title": {
+			"translate": "Nether Builder"
+		},
+		"description": {
+			"translate": "Craft or collect all nether-related blocks"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true,
+		"frame": "challenge"
+	},
+	"criteria": {
+		"collect_netherrack": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "netherrack"
+					}
+				]
+			}
+		},
+		"collect_nether_bricks": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "nether_bricks"
+					}
+				]
+			}
+		},
+		"collect_nether_brick_stairs": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "nether_brick_stairs"
+					}
+				]
+			}
+		},
+		"collect_nether_brick_slab": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "nether_brick_slab"
+					}
+				]
+			}
+		},
+		"collect_nether_brick_fence": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "nether_brick_fence"
+					}
+				]
+			}
+		},
+		"collect_nether_quartz_ore": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "nether_quartz_ore"
+					}
+				]
+			}
+		},
+		"collect_magma_block": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "magma_block"
+					}
+				]
+			}
+		},
+		"collect_nether_wart_block": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "nether_wart_block"
+					}
+				]
+			}
+		},
+		"collect_red_nether_bricks": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "red_nether_bricks"
+					}
+				]
+			}
+		},
+		"collect_glowstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "glowstone"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:nether/plant_nether_wart",
+	"rewards": {
+		"experience": 100
+	}
+}

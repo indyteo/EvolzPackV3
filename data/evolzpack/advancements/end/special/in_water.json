@@ -1,0 +1,10 @@
+﻿{
+	"criteria": {
+		"in_water": {
+			"trigger": "enter_block",
+			"conditions": {
+				"block": "water"
+			}
+		}
+	}
+}

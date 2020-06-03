@@ -1,0 +1,40 @@
+{
+    "pools": [
+        {
+		
+		"conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{SkullOwner:{Id:\"d9d2d9df-0b74-403f-afe6-68fb504bdbf3\",Name:\"Swamp Armorer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU4YzNhMTQ5M2Q0N2IwNGNjYTkzZjc3OWMwYjY4YTRkZjRkYjI0NDc3OGExYTE2OTFkOWJlYWE1ZmQwYjdlZSJ9fX0=\"}]}}}"
+						},
+						{
+                            "function": "set_count",
+                            "count": {
+                                "min": -3,
+                                "max": 0
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0.24,
+                                "max": 0.24
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

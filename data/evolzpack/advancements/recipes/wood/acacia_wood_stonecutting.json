@@ -1,0 +1,46 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:wood/acacia_wood_stonecutting"
+		]
+	},
+	"criteria": {
+		"has_acacia_wood": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "acacia_wood"
+					}
+				]
+			}
+		},
+		"has_acacia_planks": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "acacia_planks"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:wood/acacia_wood_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_acacia_wood",
+			"has_the_recipe"
+		],
+		[
+			"has_acacia_planks",
+			"has_the_recipe"
+		]
+	]
+}

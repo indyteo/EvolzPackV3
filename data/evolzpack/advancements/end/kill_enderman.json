@@ -1,0 +1,36 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "water_bucket"
+		},
+		"title": {
+			"translate": "Self-Defence"
+		},
+		"description": {
+			"translate": "Kill an Enderman being in water"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"criteria": {
+		"kill_enderman": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"location": {
+						"dimension": "the_end"
+					},
+					"type": "enderman"
+				}
+			}
+		},
+		"in_water": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "minecraft:end/enter_end_gateway",
+	"rewards": {
+		"experience": 100
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:\"da97bb10-e259-4fa2-ae12-c1dc108d5424\",Name:\"Desert Mason\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBiZjZkZjM3ZGFjNmNhNjA4OWQyYmEwNDEzNWYyMjNkNGQ4NTBkZjlmMDljN2VjNGVhZjhjNTA3NjRjYmM1MCJ9fX0=\"}]}}}"
+		},
+		"title": "Desert Mason Villager",
+		"description": "Desert Mason Villager Head",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "custom:villager/villager/desert/desert_librarian_villager",
+	"criteria": {
+		"desert_mason_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"da97bb10-e259-4fa2-ae12-c1dc108d5424\",Name:\"Desert Mason\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBiZjZkZjM3ZGFjNmNhNjA4OWQyYmEwNDEzNWYyMjNkNGQ4NTBkZjlmMDljN2VjNGVhZjhjNTA3NjRjYmM1MCJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

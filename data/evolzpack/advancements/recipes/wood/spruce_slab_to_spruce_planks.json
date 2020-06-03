@@ -1,0 +1,32 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:wood/spruce_slab_to_spruce_planks"
+		]
+	},
+	"criteria": {
+		"has_spruce_slab": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "spruce_slab"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:wood/spruce_slab_to_spruce_planks"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_spruce_slab",
+			"has_the_recipe"
+		]
+	]
+}

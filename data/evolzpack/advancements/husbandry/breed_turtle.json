@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "seagrass"
+		},
+		"title": {
+			"translate": "Save Turtles!"
+		},
+		"description": {
+			"translate": "Breed two turtles"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_turtle": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "turtle"
+				}
+			}
+		}
+	},
+	"parent": "minecraft:husbandry/breed_an_animal"
+}

@@ -1,0 +1,40 @@
+{
+  "pools": [
+		{
+		
+		"conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{SkullOwner:{Id:\"ccb79aa9-1764-4e5b-8ff3-e7be661ac7e2\",Name:\"Illusioner\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjYxNWUxMjQ1ZDBkODJkODFkZmEzNzUzMDYzZDhhYWQwZmE2NjU3NTk5ODcxY2Y0YzY5YmFiNzNjNjk5MDU1In19fQ==\"}]}}}"
+						},
+						{
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 0
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0.24,
+                                "max": 0.24
+                            }
+                        }
+                    ]
+                }
+            ]
+        }   
+  ]
+}

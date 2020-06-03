@@ -1,0 +1,32 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "elytra",
+			"nbt": "{Damage:431}"
+		},
+		"title": {
+			"translate": "Fall without Love"
+		},
+		"description": {
+			"translate": "Break your Elytra"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"criteria": {
+		"break_elytra": {
+			"trigger": "item_durability_changed",
+			"conditions": {
+				"durability": 1,
+				"item": {
+					"item": "elytra"
+				}
+			}
+		}
+	},
+	"parent": "minecraft:end/elytra",
+	"rewards": {
+		"experience": 150
+	}
+}

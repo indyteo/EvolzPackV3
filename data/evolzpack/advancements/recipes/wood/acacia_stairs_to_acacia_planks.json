@@ -1,0 +1,32 @@
+﻿{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"evolzpack:wood/acacia_stairs_to_acacia_planks"
+		]
+	},
+	"criteria": {
+		"has_acacia_stairs": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "acacia_stairs"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "evolzpack:wood/acacia_stairs_to_acacia_planks"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_acacia_stairs",
+			"has_the_recipe"
+		]
+	]
+}

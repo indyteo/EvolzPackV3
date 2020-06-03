@@ -1,0 +1,67 @@
+{
+	"type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0.0,
+                                "max": 2.0,
+								"type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ],
+					"name": "minecraft:leather"
+                }
+            ]
+        },
+		{
+		
+		"conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{SkullOwner:{Id:\"c1993333-0ee3-449b-a785-7edcd2096d84\",Name:\"Dark Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY2MWYyM2ZiNzY2MjRmZmJhYmJkYTMxY2E0YTM4YjQwNGZlNjNlZjM3ZDRiYTRlNGM1NDQxYTIxZTNhNiJ9fX0=\"}]}}}"
+						},
+						{
+                            "function": "set_count",
+                            "count": {
+                                "min": -50,
+                                "max": 0
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0.24,
+                                "max": 0.24
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

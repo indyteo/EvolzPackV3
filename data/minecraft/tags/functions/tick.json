@@ -1,0 +1,9 @@
+{
+	"values": [
+		"evolzpack:tick",
+		"vb:deathbook/death_book",
+		"main:tick",
+		"amh:run",
+		"amh:spawn"
+	]
+}

@@ -1,0 +1,183 @@
+{
+	"display": {
+		"icon": {
+			"item": "red_shulker_box"
+		},
+		"title": {
+			"translate": "Hunting Trophy"
+		},
+		"description": {
+			"translate": "Collect all colored shulker boxes"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true,
+		"frame": "challenge"
+	},
+	"criteria": {
+		"craft_white_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "white_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_orange_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "orange_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_magenta_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "magenta_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_light_blue_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "light_blue_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_yellow_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "yellow_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_lime_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "lime_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_pink_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "pink_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_gray_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "gray_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_light_gray_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "light_gray_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_cyan_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "cyan_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_purple_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "purple_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_blue_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "blue_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_brown_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "brown_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_green_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "green_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_red_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "red_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_black_shulker_box": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "black_shulker_box"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:end/craft_shulker_box",
+	"rewards": {
+		"experience": 50
+	}
+}
