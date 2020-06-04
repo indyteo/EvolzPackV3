@@ -69,7 +69,7 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"item": "minecraft:creeper_skull"
+									"item": "minecraft:creeper_head"
 								}
 							}
 						},
@@ -100,7 +100,7 @@
 			}
 		}
 	},
-	"parent": "evolzpack:bedrock/root",
+	"parent": "evolzpack:bedrock/kill_with_skull",
 	"requirements": [
 		[
 			"kill_zombie",

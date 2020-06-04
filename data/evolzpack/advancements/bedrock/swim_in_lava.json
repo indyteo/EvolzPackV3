@@ -18,7 +18,10 @@
 		"swim_in_lava": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:lava"
+				"block": "minecraft:lava",
+				"state": {
+					"falling": "false"
+				}
 			}
 		}
 	},
