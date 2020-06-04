@@ -1,0 +1,30 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:clock"
+		},
+		"title": {
+			"translate": "Cronos"
+		},
+		"description": {
+			"translate": "Craft a clock"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"craft_a_cake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:clock"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/ouranos"
+}

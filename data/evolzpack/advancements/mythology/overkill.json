@@ -1,20 +1,20 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "minecraft:crimson_fungus"
+			"item": "minecraft:golden_sword"
 		},
-		"title": "Aphrodite",
-		"description": "Breed two Hoglins",
+		"title": "Arès",
+		"description": "Inflict at least 18 damages in one single hit",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"frame": "task"
 	},
 	"criteria": {
 		"breed_horskey": {
-			"trigger": "minecraft:bred_animals",
+			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
-				"parent": {
-					"type": "minecraft:hoglin"
+				"damage": {
+					"amount": 18
 				}
 			}
 		}

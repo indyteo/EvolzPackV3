@@ -1,0 +1,28 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:bow"
+		},
+		"title": "Artémis",
+		"description": "Kill a passive mob using a bow",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"tag": "evolzpack:passive_mobs"
+				},
+				"killing_blow": {
+					"source_entity": {
+						"nbt": "{SelectedItem:{id:\"minecraft:arrow\"}}"
+					}
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/ouranos"
+}

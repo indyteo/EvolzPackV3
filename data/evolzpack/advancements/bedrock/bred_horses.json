@@ -16,7 +16,7 @@
 	"criteria": {
 		"breed_horskey": {
 			"trigger": "minecraft:bred_animals",
-			"condition": {
+			"conditions": {
 				"child": {
 					"type": "minecraft:mule"
 				}

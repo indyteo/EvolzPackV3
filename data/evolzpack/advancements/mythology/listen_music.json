@@ -1,0 +1,32 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:music_disk_mall"
+		},
+		"title": {
+			"translate": "Apollon"
+		},
+		"description": {
+			"translate": "Breed two Hoglins"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+					"type": "minecraft:jukebox"
+					}	
+				},
+				"item": {
+				"tag": "evolzpack:music_discs"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/ouranos"
+}

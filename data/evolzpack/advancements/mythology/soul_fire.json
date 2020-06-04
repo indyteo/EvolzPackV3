@@ -1,0 +1,32 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:soul_lantern"
+		},
+		"title": {
+			"translate": "Hadès"
+		},
+		"description": {
+			"translate": "Use a fire charge on soul sand"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+					"block": "minecraft:soul_sand"
+					}	
+				},
+				"item": {
+				"item": "minecraft:fire_charge"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/ouranos"
+}

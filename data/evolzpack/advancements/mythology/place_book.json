@@ -1,0 +1,32 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_boots"
+		},
+		"title": {
+			"translate": "Hermès"
+		},
+		"description": {
+			"translate": "Place a writtable book in a lectern"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+					"block": "minecraft:lectern"
+					}	
+				},
+				"item": {
+				"item": "minecraft:writable_book"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/ouranos"
+}

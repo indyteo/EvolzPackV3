@@ -1,0 +1,31 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:heart_of_the_sea"
+		},
+		"title": "Poséidon",
+		"description": "Kill a drowned with a riptide trident on an ocean",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"kill_drowned": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:drowned",
+					"location": {
+					"biome": "minecraft:ocean"
+					}
+				},
+				"killing_blow":{
+					"source_entity":{
+					"nbt": "{SelectedItem:{id:\"minecraft:trident\",Enchantments:[{id: "minecraft:riptide"}]}"
+					}
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/ouranos"
+}

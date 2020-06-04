@@ -1,27 +1,27 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "minecraft:nether_star"
+			"item": "minecraft:poppy"
 		},
 		"title": {
-			"translate": "Ouranos"
+			"translate": "Héra"
 		},
 		"description": {
-			"translate": "Satisfy every god and goddess"
+			"translate": "Breed bees to create life !"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
-		"frame": "challenge"
+		"frame": "task"
 	},
 	"criteria": {
 		"breed_horskey": {
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
-				"child": {
-					"type": "minecraft:mule"
+				"parent": {
+					"type": "minecraft:bee"
 				}
 			}
 		}
 	},
-	"parent": "evolzpack:mythology/root"
+	"parent": "evolzpack:mythology/ouranos"
 }
