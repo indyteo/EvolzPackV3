@@ -23,5 +23,5 @@
 			}
 		}
 	},
-	"parent": "evolzpack:bedrock/root"
+	"parent": "evolzpack:bedrock/get_leather"
 }
