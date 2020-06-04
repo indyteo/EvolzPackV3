@@ -17,7 +17,7 @@
 	"criteria": {
 		"craft_a_cake": {
 			"trigger": "minecraft:inventory_changed",
-			"condition": {
+			"conditions": {
 				"items": [
 					{
 						"item": "minecraft:cake"

@@ -17,7 +17,7 @@
 	"criteria": {
 		"get_leather": {
 			"trigger": "minecraft:inventory_changed",
-			"condition": {
+			"conditions": {
 				"items": [
 					{
 						"item": "minecraft:leather"
