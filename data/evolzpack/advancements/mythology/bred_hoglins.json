@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:crimson_fungus"
+		},
+		"title": {
+			"translate": "Aphrodite"
+		},
+		"description": {
+			"translate": "Breed two Hoglins"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:bred_animals",
+			"condition": {
+				"parent": {
+					"type": "minecraft:hoglin"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/root"
+}

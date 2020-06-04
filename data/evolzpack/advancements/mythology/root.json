@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bedrock"
+            "item": "minecraft:banner_pattern"
         },
-        "title": "Minecraft Bedrock advancements",
-        "description": "Take your time",
-        "background": "minecraft:textures/block/cobblestone.png",
+        "title": "Mythology advancements",
+        "description": "Let's meet every gods",
+        "background": "minecraft:textures/block/chiseled_quartz_block.png",
         "show_toast": false,
         "announce_to_chat": false,
         "frame": "task"
@@ -16,7 +16,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:furnace"
+                        "item": "minecraft:paper"
                     }
                 ]
             }

@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"title": {
+			"translate": "Ouranos"
+		},
+		"description": {
+			"translate": "Satisfy every god and goddess"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:bred_animals",
+			"condition": {
+				"child": {
+					"type": "minecraft:mule"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/root"
+}
