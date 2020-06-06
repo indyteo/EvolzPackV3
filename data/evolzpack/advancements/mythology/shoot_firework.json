@@ -1,0 +1,38 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_rocket"
+		},
+		"title": {
+			"translate": "Hécate"
+		},
+		"description": {
+			"translate": "Launch a big white ball firework"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:firework_rocket",
+					"nbt": "{Fireworks:{Explosions:[{Type:1b,Colors:[I;15790320]}]}}"
+				},
+				"player": [
+					{
+						"condition": "minecraft:time_check",
+						"value": {
+							"min": 17700,
+							"max": 18300
+						},
+						"period": 24000
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/gaia"
+}

@@ -18,14 +18,14 @@
 		"collect_cobblestone": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"items": [
+				"player": [
 					{
-						"item": "minecraft:cobblestone",
-						"count": {
-							"min": 2304
-						}
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"nbt": "{Inventory:[{Slot:0b,id:\"minecraft:cobblestone\",Count:64b},{Slot:1b,id:\"minecraft:cobblestone\",Count:64b},{Slot:2b,id:\"minecraft:cobblestone\",Count:64b},{Slot:3b,id:\"minecraft:cobblestone\",Count:64b},{Slot:4b,id:\"minecraft:cobblestone\",Count:64b},{Slot:5b,id:\"minecraft:cobblestone\",Count:64b},{Slot:6b,id:\"minecraft:cobblestone\",Count:64b},{Slot:7b,id:\"minecraft:cobblestone\",Count:64b},{Slot:8b,id:\"minecraft:cobblestone\",Count:64b},{Slot:9b,id:\"minecraft:cobblestone\",Count:64b},{Slot:10b,id:\"minecraft:cobblestone\",Count:64b},{Slot:11b,id:\"minecraft:cobblestone\",Count:64b},{Slot:12b,id:\"minecraft:cobblestone\",Count:64b},{Slot:13b,id:\"minecraft:cobblestone\",Count:64b},{Slot:14b,id:\"minecraft:cobblestone\",Count:64b},{Slot:15b,id:\"minecraft:cobblestone\",Count:64b},{Slot:16b,id:\"minecraft:cobblestone\",Count:64b},{Slot:17b,id:\"minecraft:cobblestone\",Count:64b},{Slot:18b,id:\"minecraft:cobblestone\",Count:64b},{Slot:19b,id:\"minecraft:cobblestone\",Count:64b},{Slot:20b,id:\"minecraft:cobblestone\",Count:64b},{Slot:21b,id:\"minecraft:cobblestone\",Count:64b},{Slot:22b,id:\"minecraft:cobblestone\",Count:64b},{Slot:23b,id:\"minecraft:cobblestone\",Count:64b},{Slot:24b,id:\"minecraft:cobblestone\",Count:64b},{Slot:25b,id:\"minecraft:cobblestone\",Count:64b},{Slot:26b,id:\"minecraft:cobblestone\",Count:64b},{Slot:27b,id:\"minecraft:cobblestone\",Count:64b},{Slot:28b,id:\"minecraft:cobblestone\",Count:64b},{Slot:29b,id:\"minecraft:cobblestone\",Count:64b},{Slot:30b,id:\"minecraft:cobblestone\",Count:64b},{Slot:31b,id:\"minecraft:cobblestone\",Count:64b},{Slot:32b,id:\"minecraft:cobblestone\",Count:64b},{Slot:33b,id:\"minecraft:cobblestone\",Count:64b},{Slot:34b,id:\"minecraft:cobblestone\",Count:64b},{Slot:35b,id:\"minecraft:cobblestone\",Count:64b}]}"
+						},
+						"entity": "this"
 					}
-					
 				]
 			}
 		}

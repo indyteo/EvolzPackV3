@@ -14,15 +14,18 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"tag": "evolzpack:passives_mobs"
-				},
-				"killing_blow": {
-					"source_entity": {
-						"nbt": "{SelectedItem:{id:\"minecraft:arrow\"}}"
+					"type": "#evolzpack:passives_mobs"
+					},
+					"killing_blow": {
+						"direct_entity": {
+							"type": "#minecraft:arrows"
+						},
+						"source_entity": {
+							"type": "minecraft:player"
 					}
 				}
 			}
 		}
 	},
-	"parent": "evolzpack:mythology/ouranos"
+	"parent": "evolzpack:mythology/gaia"
 }

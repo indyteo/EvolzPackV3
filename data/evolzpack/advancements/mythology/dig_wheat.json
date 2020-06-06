@@ -23,10 +23,10 @@
 					}	
 				},
 				"item": {
-				"item": "minecraft:iron_hoe"
+				"tag": "evolzpack:hose"
 				}
 			}
 		}
 	},
-	"parent": "evolzpack:mythology/ouranos"
+	"parent": "evolzpack:mythology/gaia"
 }

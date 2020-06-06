@@ -7,20 +7,15 @@
 			"translate": "Ouranos"
 		},
 		"description": {
-			"translate": "Satisfy every god and goddess"
+			"translate": "Satisfy every gods"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"frame": "challenge"
 	},
 	"criteria": {
-		"breed_horskey": {
-			"trigger": "minecraft:bred_animals",
-			"conditions": {
-				"child": {
-					"type": "minecraft:mule"
-				}
-			}
+		"impossible": {
+			"trigger": "minecraft:impossible"
 		}
 	},
 	"parent": "evolzpack:mythology/root"

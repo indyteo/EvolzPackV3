@@ -19,11 +19,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-					"block": "minecraft:soul_sand"
+					"tag": "minecraft:soul_fire_base_blocks"
 					}	
 				},
 				"item": {
-				"item": "minecraft:fire_charge"
+				"tag": "evolzpack:fire_tools"
 				}
 			}
 		}

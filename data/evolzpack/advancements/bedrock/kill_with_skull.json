@@ -1,7 +1,7 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "minecraft:zombie_skull"
+			"item": "minecraft:zombie_head"
 		},
 		"title": {
 			"translate": "Shadow Assassin"
@@ -27,7 +27,7 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"item": "minecraft:zombie_skull"
+									"item": "minecraft:zombie_head"
 								}
 							}
 						},
@@ -100,7 +100,7 @@
 			}
 		}
 	},
-	"parent": "evolzpack:bedrock/kill_with_skull",
+	"parent": "evolzpack:bedrock/root",
 	"requirements": [
 		[
 			"kill_zombie",

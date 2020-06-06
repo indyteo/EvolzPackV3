@@ -1,7 +1,7 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "minecraft:lava_buket"
+			"item": "minecraft:lava_bucket"
 		},
 		"title": {
 			"translate": "Hot Tub"
@@ -18,10 +18,7 @@
 		"swim_in_lava": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:lava",
-				"state": {
-					"falling": "false"
-				}
+				"block": "minecraft:lava"
 			}
 		}
 	},

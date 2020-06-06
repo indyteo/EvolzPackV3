@@ -20,8 +20,20 @@
 					}
 				},
 				"killing_blow":{
-					"source_entity":{
-					"nbt": "{SelectedItem:{id:\"minecraft:trident\",Enchantments:[{id: "minecraft:riptide"}]}"
+					"direct_entity":{
+						"equipment": {
+							"mainhand": {
+								"item": "minecraft:trident",
+								"enchantments": [
+									{
+										"enchantment": "minecraft:riptide",
+										"levels": {
+											"min": 1
+										}
+									}
+								]
+							}
+						}
 					}
 				}
 			}
