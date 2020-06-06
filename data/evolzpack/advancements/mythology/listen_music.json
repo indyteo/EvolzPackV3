@@ -1,13 +1,13 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "minecraft:music_disk_mall"
+			"item": "minecraft:music_disc_mall"
 		},
 		"title": {
 			"translate": "Apollon"
 		},
 		"description": {
-			"translate": "Breed two Hoglins"
+			"translate": "Listen to music"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -23,7 +23,7 @@
 					}	
 				},
 				"item": {
-				"tag": "evolzpack:music_discs"
+				"tag": "minecraft:music_discs"
 				}
 			}
 		}

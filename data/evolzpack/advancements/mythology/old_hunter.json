@@ -10,7 +10,7 @@
 		"frame": "task"
 	},
 	"criteria": {
-		"breed_horskey": {
+		"kill_passive_mob": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
