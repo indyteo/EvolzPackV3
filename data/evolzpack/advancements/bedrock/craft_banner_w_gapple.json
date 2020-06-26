@@ -17,7 +17,7 @@
 	"criteria": {
 		"craft_banner_pattern": {
 			"trigger": "minecraft:inventory_changed",
-			"condition": {
+			"conditions": {
 				"items": [
 					{
 						"item": "minecraft:mojang_banner_pattern"

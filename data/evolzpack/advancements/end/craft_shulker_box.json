@@ -1,7 +1,7 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "shulker_box"
+			"item": "minecraft:shulker_box"
 		},
 		"title": {
 			"translate": "Magic Box"
@@ -15,15 +15,196 @@
 	},
 	"criteria": {
 		"craft_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "shulker_box"
+						"item": "minecraft:shulker_box"
+					}
+				]
+			}
+		},
+		"craft_white_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:white_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_orange_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:orange_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_magenta_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:magenta_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_light_blue_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:light_blue_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_yellow_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:yellow_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_lime_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:lime_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_pink_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:pink_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_gray_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:gray_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_light_gray_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:light_gray_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_cyan_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cyan_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_purple_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:purple_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_blue_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:blue_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_brown_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:brown_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_green_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:green_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_red_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:red_shulker_box"
+					}
+				]
+			}
+		},
+		"craft_black_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:black_shulker_box"
 					}
 				]
 			}
 		}
 	},
-	"parent": "minecraft:end/find_end_city"
+	"parent": "minecraft:end/find_end_city",
+	"requirements": [
+		[
+			"craft_shulker_box",
+			"craft_white_shulker_box",
+			"craft_orange_shulker_box",
+			"craft_magenta_shulker_box",
+			"craft_light_blue_shulker_box",
+			"craft_yellow_shulker_box",
+			"craft_lime_shulker_box",
+			"craft_pink_shulker_box",
+			"craft_gray_shulker_box",
+			"craft_light_gray_shulker_box",
+			"craft_cyan_shulker_box",
+			"craft_purple_shulker_box",
+			"craft_blue_shulker_box",
+			"craft_brown_shulker_box",
+			"craft_green_shulker_box",
+			"craft_red_shulker_box",
+			"craft_black_shulker_box"
+		]
+	]
 }

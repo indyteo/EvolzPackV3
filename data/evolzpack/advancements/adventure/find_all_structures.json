@@ -1,118 +1,134 @@
 ﻿{
-	"display": {
-		"icon": {
-			"item": "cobweb"
-		},
-		"title": {
-			"translate": "Explorer"
-		},
-		"description": {
-			"translate": "Find all game structures"
-		},
-		"frame": "challenge",
-		"show_toast": true,
-		"announce_to_chat": true
-	},
-	"criteria": {
-		"find_desert_pyramid": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "desert_pyramid"
-				}
-			}
-		},
-		"find_endcity": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "endcity"
-				}
-			}
-		},
-		"find_fortress": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "fortress"
-				}
-			}
-		},
-		"find_igloo": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "igloo"
-				}
-			}
-		},
-		"find_jungle_pyramid": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "jungle_pyramid"
-				}
-			}
-		},
-		"find_mansion": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "mansion"
-				}
-			}
-		},
-		"find_mineshaft": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "mineshaft"
-				}
-			}
-		},
-		"find_monument": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "monument"
-				}
-			}
-		},
-		"find_pillager_outpost": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "pillager_outpost"
-				}
-			}
-		},
-		"find_stronghold": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "stronghold"
-				}
-			}
-		},
-		"find_swamp_hut": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "swamp_hut"
-				}
-			}
-		},
-		"find_village": {
-			"trigger": "location",
-			"conditions": {
-				"location": {
-					"feature": "village"
-				}
-			}
-		}
-	},
-	"parent": "minecraft:adventure/root",
-	"rewards": {
-		"experience": 500
-	}
+  "display": {
+    "icon": {
+      "item": "minecraft:cobweb"
+    },
+    "title": {
+      "translate": "Explorer"
+    },
+    "description": {
+      "translate": "Find all game structures"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "find_bastion_remnant": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "bastion_remnant"
+        }
+      }
+    },
+    "find_desert_pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "desert_pyramid"
+        }
+      }
+    },
+    "find_endcity": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "endcity"
+        }
+      }
+    },
+    "find_fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "fortress"
+        }
+      }
+    },
+    "find_igloo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "igloo"
+        }
+      }
+    },
+    "find_jungle_pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "jungle_pyramid"
+        }
+      }
+    },
+    "find_mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "mansion"
+        }
+      }
+    },
+    "find_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "mineshaft"
+        }
+      }
+    },
+    "find_monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "monument"
+        }
+      }
+    },
+    "find_pillager_outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "pillager_outpost"
+        }
+      }
+    },
+    "find_ruined_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "ruined_portal"
+        }
+      }
+    },
+    "find_stronghold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "stronghold"
+        }
+      }
+    },
+    "find_swamp_hut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "swamp_hut"
+        }
+      }
+    },
+    "find_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "village"
+        }
+      }
+    }
+  },
+  "parent": "minecraft:adventure/root",
+  "rewards": {
+    "experience": 500
+  }
 }

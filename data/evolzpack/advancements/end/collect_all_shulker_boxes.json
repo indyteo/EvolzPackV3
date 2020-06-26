@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "red_shulker_box"
+			"item": "minecraft:red_shulker_box"
 		},
 		"title": {
 			"translate": "Hunting Trophy"
@@ -16,161 +16,161 @@
 	},
 	"criteria": {
 		"craft_white_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "white_shulker_box"
+						"item": "minecraft:white_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_orange_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "orange_shulker_box"
+						"item": "minecraft:orange_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_magenta_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "magenta_shulker_box"
+						"item": "minecraft:magenta_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_light_blue_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "light_blue_shulker_box"
+						"item": "minecraft:light_blue_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_yellow_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "yellow_shulker_box"
+						"item": "minecraft:yellow_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_lime_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "lime_shulker_box"
+						"item": "minecraft:lime_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_pink_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "pink_shulker_box"
+						"item": "minecraft:pink_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_gray_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "gray_shulker_box"
+						"item": "minecraft:gray_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_light_gray_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "light_gray_shulker_box"
+						"item": "minecraft:light_gray_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_cyan_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "cyan_shulker_box"
+						"item": "minecraft:cyan_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_purple_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "purple_shulker_box"
+						"item": "minecraft:purple_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_blue_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "blue_shulker_box"
+						"item": "minecraft:blue_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_brown_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "brown_shulker_box"
+						"item": "minecraft:brown_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_green_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "green_shulker_box"
+						"item": "minecraft:green_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_red_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "red_shulker_box"
+						"item": "minecraft:red_shulker_box"
 					}
 				]
 			}
 		},
 		"craft_black_shulker_box": {
-			"trigger": "inventory_changed",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "black_shulker_box"
+						"item": "minecraft:black_shulker_box"
 					}
 				]
 			}
