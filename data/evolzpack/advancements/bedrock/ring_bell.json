@@ -1,0 +1,30 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:bell"
+		},
+		"title": {
+			"translate": "We're Under Attack!"
+		},
+		"description": {
+			"translate": "Ring a bell in a village during a Raid"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"criteria": {
+		"find_village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"feature": "village"
+				}
+			}
+		},
+		"ring_bell_in_raid": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "evolzpack:bedrock/root"
+}

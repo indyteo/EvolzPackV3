@@ -19,11 +19,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-					"block": "minecraft:farmland"
+						"block": "minecraft:farmland"
 					}	
 				},
 				"item": {
-				"tag": "evolzpack:hose"
+					"tag": "evolzpack:hoes"
 				}
 			}
 		}

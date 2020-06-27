@@ -1,0 +1,44 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": {
+			"translate": "Emerald Trader"
+		},
+		"description": {
+			"translate": "Trade 200 times with villagers"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"trade_emeralds": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:traded_with_villager",
+										"value": {
+											"min": 200
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/trade_map"
+}

@@ -7,7 +7,7 @@
 			"translate": "Cow Tipper"
 		},
 		"description": {
-			"translate": "Get leather by all means!"
+			"translate": "Harvest some leather."
 		},
 		"frame": "task",
 		"show_toast": true,

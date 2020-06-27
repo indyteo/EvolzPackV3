@@ -1,0 +1,23 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra"
+		},
+		"title": {
+			"translate": "Straight in the Hole"
+		},
+		"description": {
+			"translate": "Fly through a 1x1 hole with elytra"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"fly_through_hole_up_down": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "evolzpack:bedrock/root"
+}
