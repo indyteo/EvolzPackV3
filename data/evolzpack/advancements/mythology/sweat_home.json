@@ -4,7 +4,7 @@
 			"item": "minecraft:oak_door"
 		},
 		"title": "Hestia",
-		"description": "Place house relative blocks",
+		"description": "Place house related blocks",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -50,7 +50,7 @@
 		"lantern": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:lantern"
+				"tag": "evolzpack:lanterns"
 			}
 		},
         "door": {

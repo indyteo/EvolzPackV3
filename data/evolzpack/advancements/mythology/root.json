@@ -8,7 +8,7 @@
         "background": "minecraft:textures/block/chiseled_quartz_block.png",
         "show_toast": false,
         "announce_to_chat": false,
-        "frame": "task"
+        "frame": "challenge"
     },
     "criteria": {
         "start": {

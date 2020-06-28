@@ -15,7 +15,7 @@
 		"hidden": false
 	},
 	"criteria": {
-		"craft_a_cake": {
+		"craft_clock": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [

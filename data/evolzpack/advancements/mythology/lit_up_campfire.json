@@ -19,11 +19,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-					"block": "minecraft:campfire"
+						"tag": "minecraft:campfires"
 					}	
 				},
 				"item": {
-				"item": "minecraft:fire_charge"
+					"tag": "evolzpack:fire_tools"
 				}
 			}
 		}

@@ -12,11 +12,26 @@
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
-		"frame": "challenge"
+		"frame": "goal"
 	},
 	"criteria": {
-		"impossible": {
-			"trigger": "minecraft:impossible"
+		"complete_every_goddesses_advancements": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"advancements": {
+									"evolzpack:mythology/root": false
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
 		}
 	},
 	"parent": "evolzpack:mythology/root"

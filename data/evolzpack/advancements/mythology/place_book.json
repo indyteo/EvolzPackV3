@@ -19,11 +19,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-					"block": "minecraft:lectern"
+						"block": "minecraft:lectern"
 					}	
 				},
 				"item": {
-				"item": "minecraft:writable_book"
+					"tag": "minecraft:lectern_books"
 				}
 			}
 		}

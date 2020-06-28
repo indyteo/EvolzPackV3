@@ -1,10 +1,10 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_sword"
+			"item": "minecraft:chain"
 		},
-		"title": "Arès",
-		"description": "Inflict at least 18 damages in one single hit",
+		"title": "Zeus",
+		"description": "Hit someone with a lightning bolt",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"frame": "task"
@@ -14,9 +14,12 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
-					"dealt": {
-						"min": 18
+					"type": {
+						"is_lightning": true
 					}
+				},
+				"entity": {
+					"type": "minecraft:player"
 				}
 			}
 		}

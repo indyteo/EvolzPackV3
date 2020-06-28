@@ -11,12 +11,42 @@
 		"hidden": false
 	},
 	"criteria": {
-		"loom": {
+		"blast_furnace": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-					"item": "minecraft:loom"
+					"item": "minecraft:blast_furnace"
+					}
+				]
+			}
+		},
+		"smoker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:smoker"
+					}
+				]
+			}
+		},
+		"cartography_table": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:cartography_table"
+					}
+				]
+			}
+		},
+		"brewing_stand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:brewing_stand"
 					}
 				]
 			}
@@ -41,36 +71,6 @@
 				]
 			}
 		},
-		"smoker": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-					"item": "minecraft:smoker"
-					}
-				]
-			}
-		},
-		"blast_furnace": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-					"item": "minecraft:blast_furnace"
-					}
-				]
-			}
-		},
-		"cartography_table": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-					"item": "minecraft:cartography_table"
-					}
-				]
-			}
-		},
 		"fletching_table": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -81,12 +81,42 @@
 				]
 			}
 		},
-		"grindstone": {
+		"cauldron": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-					"item": "minecraft:grindstone"
+					"item": "minecraft:cauldron"
+					}
+				]
+			}
+		},
+		"lectern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:lectern"
+					}
+				]
+			}
+		},
+		"stonecutter": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:stonecutter"
+					}
+				]
+			}
+		},
+		"loom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:loom"
 					}
 				]
 			}
@@ -101,12 +131,12 @@
 				]
 			}
 		},
-		"stonecutter": {
+		"grindstone": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-					"item": "minecraft:stonecutter"
+					"item": "minecraft:grindstone"
 					}
 				]
 			}

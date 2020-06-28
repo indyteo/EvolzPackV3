@@ -19,11 +19,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-					"type": "minecraft:jukebox"
+						"type": "minecraft:jukebox"
 					}	
 				},
 				"item": {
-				"tag": "minecraft:music_discs"
+					"tag": "minecraft:music_discs"
 				}
 			}
 		}

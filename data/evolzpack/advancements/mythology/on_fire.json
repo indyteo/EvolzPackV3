@@ -1,0 +1,54 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:fire_charge"
+		},
+		"title": {
+			"translate": "Hélios"
+		},
+		"description": {
+			"translate": "Burn under noon's sunlight"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"being_on_fire": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"flags": {
+								"is_on_fire": true
+							}
+						},
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"effects": {
+									"minecraft:fire_resistance": {
+										"duration": {
+											"min": 1
+										}
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"at_noon": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "evolzpack:mythology/ouranos"
+}
