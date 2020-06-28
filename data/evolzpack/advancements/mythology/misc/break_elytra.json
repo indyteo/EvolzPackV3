@@ -5,12 +5,12 @@
 			"nbt": "{Damage:431}"
 		},
 		"title": {
-			"translate": "Fall without Love"
+			"translate": "Ikare"
 		},
 		"description": {
-			"translate": "Break your Elytra"
+			"translate": "Burn your wings by flying to the sun"
 		},
-		"frame": "challenge",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true
 	},
@@ -25,8 +25,5 @@
 			}
 		}
 	},
-	"parent": "minecraft:end/elytra",
-	"rewards": {
-		"experience": 150
-	}
+	"parent": "evolzpack:mythology/root"
 }

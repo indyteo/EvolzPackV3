@@ -1,0 +1,28 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_sword"
+		},
+		"title": "Arès",
+		"description": "Attack a Zombified Piglin and begin the war",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"kill_drowned": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:zombified_piglin"
+				},
+				"damage":{
+					"taken":{
+						"max": 19
+					}
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/ouranos"
+}

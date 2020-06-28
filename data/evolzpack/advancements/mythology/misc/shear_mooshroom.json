@@ -1,0 +1,30 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:shears"
+		},
+		"title": {
+			"translate": "Minotaure"
+		},
+		"description": {
+			"translate": "Cuts the shrooms out of a mooshroom so it became a moo"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"shear_mooshroom": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:mooshroom"
+				},
+				"item": {
+					"item": "minecraft:shears"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/root"
+}

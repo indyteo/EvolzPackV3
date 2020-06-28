@@ -1,0 +1,44 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_boots"
+		},
+		"title": {
+			"translate": "Atlas"
+		},
+		"description": {
+			"translate": "Explore the world over 10 km"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"ride_minecart": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:sprint_one_cm",
+										"value": {
+											"min": 1000000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/root"
+}
