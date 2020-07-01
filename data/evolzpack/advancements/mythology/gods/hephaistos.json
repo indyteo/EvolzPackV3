@@ -1,13 +1,13 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_boots"
+			"item": "minecraft:campfire"
 		},
 		"title": {
-			"translate": "Hermès"
+			"translate": "Héphaïstos"
 		},
 		"description": {
-			"translate": "Place a writtable book in a lectern"
+			"translate": "Lit up a campfire with a fire charge"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -19,14 +19,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:lectern"
+						"tag": "minecraft:campfires"
 					}	
 				},
 				"item": {
-					"tag": "minecraft:lectern_books"
+					"tag": "evolzpack:fire_tools"
 				}
 			}
 		}
 	},
-	"parent": "evolzpack:mythology/ouranos"
+	"parent": "evolzpack:mythology/gods/helios"
 }

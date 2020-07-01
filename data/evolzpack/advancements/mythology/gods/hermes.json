@@ -1,13 +1,13 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "minecraft:farmland"
+			"item": "minecraft:golden_boots"
 		},
 		"title": {
-			"translate": "Démeter"
+			"translate": "Hermès"
 		},
 		"description": {
-			"translate": "Dig ground to produce renewable food"
+			"translate": "Place a book in a lectern"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -19,14 +19,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:farmland"
+						"block": "minecraft:lectern"
 					}	
 				},
 				"item": {
-					"tag": "evolzpack:hoes"
+					"tag": "minecraft:lectern_books"
 				}
 			}
 		}
 	},
-	"parent": "evolzpack:mythology/gaia"
+	"parent": "evolzpack:mythology/gods/hephaistos"
 }

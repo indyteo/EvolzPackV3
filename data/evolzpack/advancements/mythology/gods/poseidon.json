@@ -4,7 +4,7 @@
 			"item": "minecraft:heart_of_the_sea"
 		},
 		"title": "Poséidon",
-		"description": "Kill a drowned with a riptide trident on an ocean",
+		"description": "Kill a drowned with a riptide trident in an ocean",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"frame": "task"
@@ -39,5 +39,5 @@
 			}
 		}
 	},
-	"parent": "evolzpack:mythology/ouranos"
+	"parent": "evolzpack:mythology/gods/hermes"
 }

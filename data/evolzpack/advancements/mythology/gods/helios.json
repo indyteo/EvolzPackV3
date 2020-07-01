@@ -1,0 +1,22 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:fire_charge"
+		},
+		"title": {
+			"translate": "Hélios"
+		},
+		"description": {
+			"translate": "Burn under noon's sunlight"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"burn_without_fire_resistance_at_noon": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "evolzpack:mythology/gods/hades"
+}

@@ -1,0 +1,43 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": {
+			"translate": "Myths & Legends"
+		},
+		"description": {
+			"translate": "Satisfy every heroes"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"criteria": {
+		"complete_every_heroes_advancements": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"advancements": {
+									"evolzpack:mythology/heroes/atlas": true,
+									"evolzpack:mythology/heroes/cerbere": true,
+									"evolzpack:mythology/heroes/cyclope": true,
+									"evolzpack:mythology/heroes/heracles": true,
+									"evolzpack:mythology/heroes/ikare": true,
+									"evolzpack:mythology/heroes/meduse": true,
+									"evolzpack:mythology/heroes/minotaure": true
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/root"
+}

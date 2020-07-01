@@ -24,7 +24,13 @@
 						"predicate": {
 							"player": {
 								"advancements": {
-									"evolzpack:mythology/root": false
+									"evolzpack:mythology/goddesses/aphrodite": true,
+									"evolzpack:mythology/goddesses/artemis": true,
+									"evolzpack:mythology/goddesses/athena": true,
+									"evolzpack:mythology/goddesses/demeter": true,
+									"evolzpack:mythology/goddesses/hecate": true,
+									"evolzpack:mythology/goddesses/hera": true,
+									"evolzpack:mythology/goddesses/hestia": true
 								}
 							}
 						},

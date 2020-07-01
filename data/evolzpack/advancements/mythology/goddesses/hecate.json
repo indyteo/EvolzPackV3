@@ -1,0 +1,22 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_rocket"
+		},
+		"title": {
+			"translate": "Hécate"
+		},
+		"description": {
+			"translate": "Launch a big white ball firework at midnight"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"launch_white_ball_fireworks_at_midnight": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "evolzpack:mythology/goddesses/demeter"
+}

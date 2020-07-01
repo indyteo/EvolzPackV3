@@ -1,0 +1,15 @@
+﻿{
+	"criteria": {
+		"kill_drowned": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "evolzpack:tame_wolf"
+	}
+}

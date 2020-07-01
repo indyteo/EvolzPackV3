@@ -1,13 +1,13 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "minecraft:soul_lantern"
+			"item": "minecraft:farmland"
 		},
 		"title": {
-			"translate": "Hadès"
+			"translate": "Démeter"
 		},
 		"description": {
-			"translate": "Use a fire charge on soul sand"
+			"translate": "Dig ground to produce renewable food"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -19,14 +19,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"tag": "minecraft:soul_fire_base_blocks"
+						"block": "minecraft:farmland"
 					}	
 				},
 				"item": {
-					"tag": "evolzpack:fire_tools"
+					"tag": "evolzpack:hoes"
 				}
 			}
 		}
 	},
-	"parent": "evolzpack:mythology/ouranos"
+	"parent": "evolzpack:mythology/goddesses/athena"
 }

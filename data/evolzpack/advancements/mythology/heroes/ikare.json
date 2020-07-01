@@ -1,0 +1,44 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra",
+			"nbt": "{Damage:431}"
+		},
+		"title": {
+			"translate": "Ikare"
+		},
+		"description": {
+			"translate": "Burn your wings by flying to the sun"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"criteria": {
+		"break_elytra": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"durability": 1,
+				"item": {
+					"item": "elytra"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"location": {
+								"position": {
+									"y": {
+										"min": 512
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/heroes/heracles"
+}

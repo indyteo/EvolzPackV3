@@ -23,7 +23,15 @@
 						"predicate": {
 							"player": {
 								"advancements": {
-									"evolzpack:mythology/root": false
+									"evolzpack:mythology/gods/apollon": true,
+									"evolzpack:mythology/gods/ares": true,
+									"evolzpack:mythology/gods/chronos": true,
+									"evolzpack:mythology/gods/hades": true,
+									"evolzpack:mythology/gods/helios": true,
+									"evolzpack:mythology/gods/hephaistos": true,
+									"evolzpack:mythology/gods/hermes": true,
+									"evolzpack:mythology/gods/poseidon": true,
+									"evolzpack:mythology/gods/zeus": true
 								}
 							}
 						},

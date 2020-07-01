@@ -1,13 +1,13 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "minecraft:campfire"
+			"item": "minecraft:soul_lantern"
 		},
 		"title": {
-			"translate": "Héphaïstos"
+			"translate": "Hadès"
 		},
 		"description": {
-			"translate": "Lit up a campfire with a fire charge"
+			"translate": "Use a fire charge on soul sand"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -19,7 +19,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"tag": "minecraft:campfires"
+						"tag": "minecraft:soul_fire_base_blocks"
 					}	
 				},
 				"item": {
@@ -28,5 +28,5 @@
 			}
 		}
 	},
-	"parent": "evolzpack:mythology/ouranos"
+	"parent": "evolzpack:mythology/gods/chronos"
 }

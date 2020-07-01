@@ -1,0 +1,16 @@
+﻿{
+	"criteria": {
+		"launch_white_ball_fireworks": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:firework_rocket",
+					"nbt": "{Fireworks:{Explosions:[{Type:1b,Colors:[I;15790320]}]}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "evolzpack:launch_white_ball_fireworks"
+	}
+}

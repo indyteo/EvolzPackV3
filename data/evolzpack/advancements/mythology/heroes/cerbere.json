@@ -1,0 +1,30 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:bone"
+		},
+		"title": "Cerbère",
+		"description": "Tame 5 wolfs",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"tame_first": {
+			"trigger": "minecraft:impossible"
+		},
+		"tame_second": {
+			"trigger": "minecraft:impossible"
+		},
+		"tame_third": {
+			"trigger": "minecraft:impossible"
+		},
+		"tame_four": {
+			"trigger": "minecraft:impossible"
+		},
+		"tame_five": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "evolzpack:mythology/heroes/atlas"
+}
