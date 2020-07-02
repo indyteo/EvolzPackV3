@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_block"
+    },
+    "title": {
+      "translate": "Mr Stark"
+    },
+    "description": {
+      "translate": "Equip every Netherite Items"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "netherite_stuff": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "item": "minecraft:netherite_sword"
+                },
+                "offhand": {
+                  "item": "minecraft:shield",
+                  "nbt": "{BlockEntityTag:{Patterns:[{Pattern:\"pig\"}]}}"
+                },
+                "head": {
+                  "item": "minecraft:netherite_helmet"
+                },
+                "chest": {
+                  "item": "minecraft:netherite_chestplate"
+                },
+                "legs": {
+                  "item": "minecraft:netherite_leggings"
+                },
+                "feet": {
+                  "item": "minecraft:netherite_boots"
+                }
+              },
+              "nbt": "{Inventory:[{id:\"minecraft:netherite_pickaxe\"},{id:\"minecraft:netherite_axe\"},{id:\"minecraft:netherite_shovel\"},{id:\"minecraft:netherite_hoe\"},{id:\"minecraft:netherite_ingot\"},{id:\"minecraft:netherite_block\"},{id:\"minecraft:netherite_scrap\"},{id:\"minecraft:ancient_debris\"}]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  },
+  "parent": "minecraft:nether/netherite_armor"
+}

@@ -9,13 +9,13 @@
 		"description": {
 			"translate": "Fly through a 1x1 hole with elytra"
 		},
-		"frame": "task",
+		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"fly_through_hole_up_down": {
+		"fly_through_hole": {
 			"trigger": "minecraft:impossible"
 		}
 	},

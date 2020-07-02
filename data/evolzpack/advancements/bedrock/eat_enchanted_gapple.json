@@ -9,7 +9,7 @@
 		"description": {
 			"translate": "Eat an enchanted golden apple"
 		},
-		"frame": "task",
+		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

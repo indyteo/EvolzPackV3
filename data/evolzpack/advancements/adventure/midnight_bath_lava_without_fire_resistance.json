@@ -1,0 +1,41 @@
+﻿{
+	"criteria": {
+		"being_in_lava": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"location": {
+								"fluid": {
+									"tag": "minecraft:lava"
+								}
+							}
+						},
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"effects": {
+									"minecraft:fire_resistance": {
+										"duration": {
+											"min": 1
+										}
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "evolzpack:lava_without_fire_resistance"
+	}
+}

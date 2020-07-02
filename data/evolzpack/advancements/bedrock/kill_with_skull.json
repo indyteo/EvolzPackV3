@@ -9,7 +9,7 @@
 		"description": {
 			"translate": "Kill a zombie, skeleton, creeper or wither skeleton with the corresponding skull on your head"
 		},
-		"frame": "task",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

@@ -4,10 +4,10 @@
 			"item": "minecraft:cake"
 		},
 		"title": {
-			"translate": "The Cake is a Lie"
+			"translate": "The Lie"
 		},
 		"description": {
-			"translate": "Bake a cake like grandma!"
+			"translate": "Bake a cake using: wheat, sugar, milk and eggs."
 		},
 		"frame": "task",
 		"show_toast": true,

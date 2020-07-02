@@ -1,0 +1,37 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "diamond"
+		},
+		"title": {
+			"translate": "Diamonds to you!"
+		},
+		"description": {
+			"translate": "Throw diamonds at another player"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"give_diamond": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:diamond"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:player"
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"parent": "minecraft:story/mine_diamond"
+}

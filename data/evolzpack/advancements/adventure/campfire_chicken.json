@@ -1,0 +1,22 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_chicken"
+		},
+		"title": {
+			"translate": "Dining Under the Stars"
+		},
+		"description": {
+			"translate": "Share a Kampfire Fried Chicken with you friends"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"criteria": {
+		"kampfire_fried_chicken": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "minecraft:adventure/root"
+}

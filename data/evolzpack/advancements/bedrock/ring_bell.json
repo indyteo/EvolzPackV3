@@ -9,7 +9,7 @@
 		"description": {
 			"translate": "Ring a bell in a village during a Raid"
 		},
-		"frame": "task",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true
 	},

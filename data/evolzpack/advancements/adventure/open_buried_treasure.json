@@ -1,0 +1,25 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:chest"
+		},
+		"title": {
+			"translate": "Treasure Hunter"
+		},
+		"description": {
+			"translate": "Find and open a buried treasure by following a treasure map"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"criteria": {
+		"open_buried_treasure": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/buried_treasure"
+			}
+		}
+	},
+	"parent": "minecraft:adventure/root"
+}

@@ -1,0 +1,22 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:lava_bucket"
+		},
+		"title": {
+			"translate": "Midnight Bath"
+		},
+		"description": {
+			"translate": "Take a lava bath at midnight"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"burn_without_fire_resistance_at_midnight": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "minecraft:adventure/root"
+}
