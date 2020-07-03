@@ -1,0 +1,2 @@
+execute at @s unless block ~ ~-1 ~ #evolzpack:solid_block run advancement grant @s only evolzpack:adventure/stand_up
+execute at @s if block ~ ~-1 ~ #evolzpack:solid_block run advancement revoke @s only evolzpack:adventure/stand_up_top_of_world

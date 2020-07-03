@@ -1,9 +1,20 @@
-function evolzpack:succes/end/special/in_water
 function evolzpack:end/end_fall_tp
 
-execute as @a[scores={CraftWand=1..}] run give @s prismarine_shard{CustomModelData:1,display:{Name:"[{\"text\":\"Prismarine Wand\",\"italic\":false}]"}}
-execute as @a[scores={CraftWand=1..}] run clear @s knowledge_book 1
-execute as @a[scores={CraftWand=1..}] run scoreboard players reset @s CraftWand
+# Ring Bell Advancement
+execute as @a at @s if score @s BellsRung matches 1.. if entity @e[type=#raiders,distance=..75,nbt=!{Wave:0}] run advancement grant @s only evolzpack:bedrock/ring_bell ring_bell_in_raid
+scoreboard players reset @a BellsRung
+execute if entity @a[advancements={evolzpack:bedrock/ring_bell=true}] run advancement revoke @s only evolzpack:bedrock/ring_bell
 
-execute as @a[scores={RTT=1..}] at @s if data entity @s SelectedItem.tag.Tags[0] run execute as @e[type=minecraft:villager,limit=1,sort=nearest] if data entity @s Tags[0] at @s facing entity @p feet run tp @s ~ ~ ~ ~ ~
-execute as @a[scores={RTT=1..}] run scoreboard players reset @s RTT
+# Fly Into Small Hole Advancement
+# Up / Down
+execute as @a[advancements={evolzpack:bedrock/fly_into_small_hole=false},nbt={FallFlying:1b}] at @s unless block ~ ~ ~ #evolzpack:solid_block if block ~1 ~ ~ #evolzpack:solid_block if block ~-1 ~ ~ #evolzpack:solid_block if block ~ ~ ~1 #evolzpack:solid_block if block ~ ~ ~-1 #evolzpack:solid_block run advancement grant @s only evolzpack:bedrock/fly_into_small_hole
+# East / West
+execute as @a[advancements={evolzpack:bedrock/fly_into_small_hole=false},nbt={FallFlying:1b}] at @s unless block ~ ~ ~ #evolzpack:solid_block if block ~ ~1 ~ #evolzpack:solid_block if block ~ ~-1 ~ #evolzpack:solid_block if block ~ ~ ~1 #evolzpack:solid_block if block ~ ~ ~-1 #evolzpack:solid_block run advancement grant @s only evolzpack:bedrock/fly_into_small_hole
+# North / South
+execute as @a[advancements={evolzpack:bedrock/fly_into_small_hole=false},nbt={FallFlying:1b}] at @s unless block ~ ~ ~ #evolzpack:solid_block if block ~ ~1 ~ #evolzpack:solid_block if block ~ ~-1 ~ #evolzpack:solid_block if block ~1 ~ ~ #evolzpack:solid_block if block ~-1 ~ ~ #evolzpack:solid_block run advancement grant @s only evolzpack:bedrock/fly_into_small_hole
+
+# Flying Pig
+execute as @a[advancements={evolzpack:bedrock/flying_pig=false},nbt={RootVehicle:{Entity:{id:"minecraft:pig"}}}] run function evolzpack:flying_pig
+
+# Strider Drop
+execute as @a[advancements={evolzpack:nether/strider_drop=false},nbt={RootVehicle:{Entity:{id:"minecraft:strider"}}}] run function evolzpack:strider_drop

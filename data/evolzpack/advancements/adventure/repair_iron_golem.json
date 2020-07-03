@@ -1,0 +1,30 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:poppy"
+		},
+		"title": {
+			"translate": "Medical Ingineer"
+		},
+		"description": {
+			"translate": "Use a iron ingot to repair a damaged iron golem"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"criteria": {
+		"repair_iron_golem": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:iron_golem"
+				},
+				"item": {
+					"item": "minecraft:iron_ingot"
+				}
+			}
+		}
+	},
+	"parent": "minecraft:adventure/summon_iron_golem"
+}

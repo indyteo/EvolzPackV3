@@ -1,0 +1,39 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_eye"
+		},
+		"title": {
+			"translate": "Cyclope"
+		},
+		"description": {
+			"translate": "As a strange effect makes your vision fade to dark, you think that you should have refused that suspicious stew..."
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"having_blindness": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"effects": {
+								"minecraft:blindness": {
+									"duration": {
+										"min": 1
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/heroes/cerbere"
+}

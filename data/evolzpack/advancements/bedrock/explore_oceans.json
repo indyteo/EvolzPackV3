@@ -1,0 +1,95 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_boat"
+		},
+		"title": {
+			"translate": "The Seven Seas"
+		},
+		"description": {
+			"translate": "Discover every ocean biomes"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"minecraft:warm_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:warm_ocean"
+				}
+			}
+		},
+		"minecraft:lukewarm_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:lukewarm_ocean"
+				}
+			}
+		},
+		"minecraft:deep_lukewarm_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:deep_lukewarm_ocean"
+				}
+			}
+		},
+		"minecraft:ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:ocean"
+				}
+			}
+		},
+		"minecraft:deep_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:deep_ocean"
+				}
+			}
+		},
+		"minecraft:cold_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:cold_ocean"
+				}
+			}
+		},
+		"minecraft:deep_cold_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:deep_cold_ocean"
+				}
+			}
+		},
+		"minecraft:frozen_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:frozen_ocean"
+				}
+			}
+		},
+		"minecraft:deep_frozen_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:deep_frozen_ocean"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/trade_map",
+	"rewards": {
+		"experience": 500
+	}
+}

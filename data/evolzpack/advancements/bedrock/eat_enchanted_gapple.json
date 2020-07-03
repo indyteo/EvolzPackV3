@@ -1,0 +1,28 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanted_golden_apple"
+		},
+		"title": {
+			"translate": "Expensive Candy"
+		},
+		"description": {
+			"translate": "Eat an enchanted golden apple"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"eat_ega": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:enchanted_golden_apple"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/craft_banner_w_gapple"
+}

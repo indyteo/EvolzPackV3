@@ -1,0 +1,23 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:crimson_fungus"
+		},
+		"title": "Aphrodite",
+		"description": "Breed two Hoglins",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:hoglin"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/gaia"
+}

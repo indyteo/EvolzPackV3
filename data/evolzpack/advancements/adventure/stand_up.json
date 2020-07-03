@@ -1,0 +1,22 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:ladder"
+		},
+		"title": {
+			"translate": "You can Jump, Neo"
+		},
+		"description": {
+			"translate": "Stand up on the edge of the void at y=255"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"criteria": {
+		"stand_up": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "minecraft:adventure/root"
+}

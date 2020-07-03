@@ -1,0 +1,44 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Globe\\\"}\"},SkullOwner:{Id:[I;2044128158,2025607007,-1524547601,-1139867561],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y0MDk0MmYzNjRmNmNiY2VmZmNmMTE1MTc5NjQxMDI4NmE0OGIxYWViYTc3MjQzZTIxODAyNmMwOWNkMSJ9fX0=\"}]}}}"
+		},
+		"title": {
+			"translate": "Gaïa"
+		},
+		"description": {
+			"translate": "Satisfy every goddesses"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"criteria": {
+		"complete_every_goddesses_advancements": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"advancements": {
+									"evolzpack:mythology/goddesses/aphrodite": true,
+									"evolzpack:mythology/goddesses/artemis": true,
+									"evolzpack:mythology/goddesses/athena": true,
+									"evolzpack:mythology/goddesses/demeter": true,
+									"evolzpack:mythology/goddesses/hecate": true,
+									"evolzpack:mythology/goddesses/hera": true,
+									"evolzpack:mythology/goddesses/hestia": true
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/root"
+}

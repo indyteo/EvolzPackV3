@@ -1,0 +1,44 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:minecart"
+		},
+		"title": {
+			"translate": "A Long Railroad"
+		},
+		"description": {
+			"translate": "Ride a minecart during 1 km"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"ride_minecart": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:minecart_one_cm",
+										"value": {
+											"min": 100000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/root"
+}

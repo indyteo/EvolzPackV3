@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/form_obsidian",
+  "display": {
+    "icon": {
+      "item": "minecraft:flint_and_steel",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "We Need to Go Upper"
+    },
+    "description": {
+      "translate": "Build, light and exit a Nether Portal"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "exited_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_nether",
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "exited_nether"
+    ]
+  ]
+}

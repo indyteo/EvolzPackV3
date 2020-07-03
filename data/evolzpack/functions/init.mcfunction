@@ -1,4 +1,7 @@
-scoreboard objectives add CraftWand minecraft.crafted:minecraft.knowledge_book
-scoreboard objectives add RTT minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add BellsRung minecraft.custom:minecraft.bell_ring
+scoreboard objectives add FallingPigs dummy
+scoreboard objectives add FallingStrider dummy
+scoreboard objectives add TamedWolf dummy
+scoreboard objectives add Time dummy
 
 tellraw @a ["",{"text":"Reload successful!"}]

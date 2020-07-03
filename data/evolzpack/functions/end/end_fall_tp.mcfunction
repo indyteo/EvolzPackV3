@@ -1,1 +1,1 @@
-execute as @a at @s in the_end if entity @s[y=-10,dy=10] run execute in overworld run tp @s ~ 255 ~
+execute in the_end as @a at @s if entity @s[y=-50,dy=20] run execute in overworld run tp @s ~ 255 ~

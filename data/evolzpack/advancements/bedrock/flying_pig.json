@@ -1,0 +1,23 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:carrot_on_a_stick"
+		},
+		"title": {
+			"translate": "When Pigs Fly"
+		},
+		"description": {
+			"translate": "Use a saddle to ride a pig, and then have the pig get hurt from fall damage while riding it."
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"fall_damage_on_pig": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "evolzpack:bedrock/place_scaffolding_top_of_world"
+}

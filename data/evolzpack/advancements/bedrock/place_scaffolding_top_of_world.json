@@ -1,0 +1,30 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:scaffolding"
+		},
+		"title": {
+			"translate": "At World's End"
+		},
+		"description": {
+			"translate": "Place a Scaffolding at the maximum build limit of the world"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"place_scaffolding_top_of_world": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:scaffolding",
+				"location": {
+					"position": {
+						"y": 255
+					}
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/root"
+}

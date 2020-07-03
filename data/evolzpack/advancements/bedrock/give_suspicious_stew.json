@@ -1,0 +1,37 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "suspicious_stew"
+		},
+		"title": {
+			"translate": "\"Friend\""
+		},
+		"description": {
+			"translate": "Give a suspicious stew to someone"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"give_stew": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:suspicious_stew"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:player"
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/craft_cake"
+}

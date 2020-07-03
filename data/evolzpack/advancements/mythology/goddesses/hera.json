@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:poppy"
+		},
+		"title": {
+			"translate": "Héra"
+		},
+		"description": {
+			"translate": "Breed bees to create life !"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:bee"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/goddesses/hecate"
+}

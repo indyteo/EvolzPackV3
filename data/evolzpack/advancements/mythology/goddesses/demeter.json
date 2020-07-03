@@ -1,0 +1,32 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:farmland"
+		},
+		"title": {
+			"translate": "Démeter"
+		},
+		"description": {
+			"translate": "Dig ground to produce renewable food"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:farmland"
+					}	
+				},
+				"item": {
+					"tag": "evolzpack:hoes"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/goddesses/athena"
+}

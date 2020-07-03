@@ -1,0 +1,26 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:lava_bucket"
+		},
+		"title": {
+			"translate": "Hot Tub"
+		},
+		"description": {
+			"translate": "Go for a swim in lava"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"swim_in_lava": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:lava"
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/root"
+}

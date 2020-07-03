@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow",
+      "nbt": "{Damage:0,ChargedProjectiles:[{id:\"minecraft:firework_rocket\",Count:1b}],Charged:1b}"
+    },
+    "title": {
+      "translate": "Rocketman"
+    },
+    "description": {
+      "translate": "Hurt someone with a firework rocket and a crossbow"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "hurt_with_firework": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+		},
+        "damage": {
+		  "blocked": false,
+		  "type": {
+		    "direct_entity": {
+			  "type": "minecraft:firework_rocket"
+			}
+		  }
+		}
+      }
+    }
+  },
+  "parent": "minecraft:adventure/whos_the_pillager_now"
+}

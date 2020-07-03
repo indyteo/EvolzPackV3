@@ -1,0 +1,83 @@
+﻿{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "Mines of Moria"
+    },
+    "description": {
+      "translate": "Enter a Mineshaft in Badlands"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "find_mineshaft_in_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "badlands",
+          "feature": "mineshaft"
+        }
+      }
+    },
+    "find_mineshaft_in_badlands_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "badlands_plateau",
+          "feature": "mineshaft"
+        }
+      }
+    },
+    "find_mineshaft_in_modified_badlands_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "modified_badlands_plateau",
+          "feature": "mineshaft"
+        }
+      }
+    },
+    "find_mineshaft_in_wooded_badlands_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "wooded_badlands_plateau",
+          "feature": "mineshaft"
+        }
+      }
+    },
+    "find_mineshaft_in_modified_wooded_badlands_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "modified_wooded_badlands_plateau",
+          "feature": "mineshaft"
+        }
+      }
+    },
+    "find_mineshaft_in_eroded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "eroded_badlands",
+          "feature": "mineshaft"
+        }
+      }
+    }
+  },
+  "parent": "minecraft:adventure/root",
+  "requirements": [
+    [
+      "find_mineshaft_in_badlands",
+      "find_mineshaft_in_badlands_plateau",
+      "find_mineshaft_in_modified_badlands_plateau",
+      "find_mineshaft_in_wooded_badlands_plateau",
+      "find_mineshaft_in_modified_wooded_badlands_plateau",
+      "find_mineshaft_in_eroded_badlands"
+    ]
+  ]
+}

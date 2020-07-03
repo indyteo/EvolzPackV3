@@ -1,0 +1,31 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:bow"
+		},
+		"title": "Artémis",
+		"description": "Kill a passive mob using a bow",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"kill_passive_mob": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "#evolzpack:passives_mobs"
+					},
+					"killing_blow": {
+						"direct_entity": {
+							"type": "#minecraft:arrows"
+						},
+						"source_entity": {
+							"type": "minecraft:player"
+					}
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/goddesses/aphrodite"
+}

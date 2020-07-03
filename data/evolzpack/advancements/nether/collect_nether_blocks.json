@@ -1,123 +1,103 @@
 ﻿{
-	"display": {
-		"icon": {
-			"item": "nether_wart_block"
-		},
-		"title": {
-			"translate": "Nether Builder"
-		},
-		"description": {
-			"translate": "Craft or collect all nether-related blocks"
-		},
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": true,
-		"frame": "challenge"
-	},
-	"criteria": {
-		"collect_netherrack": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "netherrack"
-					}
-				]
-			}
-		},
-		"collect_nether_bricks": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "nether_bricks"
-					}
-				]
-			}
-		},
-		"collect_nether_brick_stairs": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "nether_brick_stairs"
-					}
-				]
-			}
-		},
-		"collect_nether_brick_slab": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "nether_brick_slab"
-					}
-				]
-			}
-		},
-		"collect_nether_brick_fence": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "nether_brick_fence"
-					}
-				]
-			}
-		},
-		"collect_nether_quartz_ore": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "nether_quartz_ore"
-					}
-				]
-			}
-		},
-		"collect_magma_block": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "magma_block"
-					}
-				]
-			}
-		},
-		"collect_nether_wart_block": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "nether_wart_block"
-					}
-				]
-			}
-		},
-		"collect_red_nether_bricks": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "red_nether_bricks"
-					}
-				]
-			}
-		},
-		"collect_glowstone": {
-			"trigger": "inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "glowstone"
-					}
-				]
-			}
-		}
-	},
-	"parent": "evolzpack:nether/plant_nether_wart",
-	"rewards": {
-		"experience": 100
-	}
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "title": {
+      "translate": "Nether Builder"
+    },
+    "description": {
+      "translate": "Craft or collect most of the nether-related blocks"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "collect_netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherrack"
+          }
+        ]
+      }
+    },
+    "collect_crimson_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crimson_stem"
+          }
+        ]
+      }
+    },
+    "collect_warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:warped_stem"
+          }
+        ]
+      }
+    },
+    "collect_basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:basalt"
+          }
+        ]
+      }
+    },
+    "collect_soul_soil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:soul_soil"
+          }
+        ]
+      }
+    },
+    "collect_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_bricks"
+          }
+        ]
+      }
+    },
+    "collect_polished_blackstone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_blackstone_bricks"
+          }
+        ]
+      }
+    },
+    "collect_crying_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crying_obsidian"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "evolzpack:nether/plant_nether_wart",
+  "rewards": {
+    "experience": 100
+  }
 }

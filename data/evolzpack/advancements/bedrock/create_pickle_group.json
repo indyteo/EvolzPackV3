@@ -1,0 +1,30 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:sea_pickle"
+		},
+		"title": {
+			"translate": "Pickle Power"
+		},
+		"description": {
+			"translate": "Create a group of 4 lit pickles"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"place_pickle": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:sea_pickle",
+				"state": {
+					"pickles": "4",
+					"waterlogged": "true"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/root"
+}

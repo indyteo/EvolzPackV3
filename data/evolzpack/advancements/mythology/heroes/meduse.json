@@ -1,0 +1,131 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:infested_stone"
+		},
+		"title": "Méduse",
+		"description": "Eliminate 5 silverfish",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"kill_first": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:silverfish"
+				}
+			}
+		},
+		"kill_second": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:silverfish"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:killed",
+										"stat": "minecraft:silverfish",
+										"value": {
+											"min": 1
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"kill_third": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:silverfish"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:killed",
+										"stat": "minecraft:silverfish",
+										"value": {
+											"min": 2
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"kill_four": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:silverfish"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:killed",
+										"stat": "minecraft:silverfish",
+										"value": {
+											"min": 3
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"kill_five": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:silverfish"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:killed",
+										"stat": "minecraft:silverfish",
+										"value": {
+											"min": 4
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/heroes/ikare"
+}

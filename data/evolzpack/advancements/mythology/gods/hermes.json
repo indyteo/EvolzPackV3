@@ -1,0 +1,32 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_boots"
+		},
+		"title": {
+			"translate": "Hermès"
+		},
+		"description": {
+			"translate": "Place a book in a lectern"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:lectern"
+					}	
+				},
+				"item": {
+					"tag": "minecraft:lectern_books"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/gods/hephaistos"
+}

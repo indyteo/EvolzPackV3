@@ -1,0 +1,45 @@
+﻿{
+	"criteria": {
+		"top_of_world": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"position": {
+						"y": {
+							"min": 255,
+							"max": 256
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"flags": {
+								"is_sneaking": true
+							}
+						},
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"chest": {
+										"item": "minecraft:elytra"
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "evolzpack:top_of_world"
+	}
+}

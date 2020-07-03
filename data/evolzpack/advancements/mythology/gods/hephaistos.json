@@ -1,0 +1,32 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:campfire"
+		},
+		"title": {
+			"translate": "Héphaïstos"
+		},
+		"description": {
+			"translate": "Lit up a campfire with a fire charge"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}	
+				},
+				"item": {
+					"tag": "evolzpack:fire_tools"
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/gods/helios"
+}

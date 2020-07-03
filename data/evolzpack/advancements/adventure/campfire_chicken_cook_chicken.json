@@ -1,0 +1,56 @@
+﻿{
+	"criteria": {
+		"cook_chicken_in_taiga": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:taiga",
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:chicken"
+				}
+			}
+		},
+		"cook_chicken_in_taiga_hills": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:taiga_hills",
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:chicken"
+				}
+			}
+		},
+		"cook_chicken_in_taiga_mountains": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"biome": "minecraft:taiga_mountains",
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:chicken"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"cook_chicken_in_taiga",
+			"cook_chicken_in_taiga_hills",
+			"cook_chicken_in_taiga_mountains"
+		]
+	],
+	"rewards": {
+		"function": "evolzpack:cook_chicken"
+	}
+}

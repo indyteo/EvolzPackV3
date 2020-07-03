@@ -1,0 +1,222 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_ingot"
+		},
+		"title": {
+			"translate": "That was Hot!"
+		},
+		"description": {
+			"translate": "Reclaim a netherite item that you lost in lava using a fishing hook"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"reclaim_ancient_debris": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:ancient_debris\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_scrap": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_scrap\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_ingot": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_ingot\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_block": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_block\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_sword": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_sword\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_pickaxe": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_pickaxe\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_axe": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_axe\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_shovel": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_shovel\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_hoe": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_hoe\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_helmet": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_helmet\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_chestplate": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_chestplate\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_leggings": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_leggings\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		},
+		"reclaim_netherite_boots": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:item",
+					"nbt": "{Item:{id:\"minecraft:netherite_boots\"}}",
+					"location": {
+						"fluid": {
+							"tag": "minecraft:lava"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"reclaim_ancient_debris",
+			"reclaim_netherite_scrap",
+			"reclaim_netherite_ingot",
+			"reclaim_netherite_block",
+			"reclaim_netherite_sword",
+			"reclaim_netherite_pickaxe",
+			"reclaim_netherite_axe",
+			"reclaim_netherite_shovel",
+			"reclaim_netherite_hoe",
+			"reclaim_netherite_helmet",
+			"reclaim_netherite_chestplate",
+			"reclaim_netherite_leggings",
+			"reclaim_netherite_boots"
+		]
+	],
+	"rewards": {
+		"experience": 100
+	},
+	"parent": "minecraft:nether/obtain_ancient_debris"
+}

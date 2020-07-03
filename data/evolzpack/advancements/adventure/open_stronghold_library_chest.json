@@ -1,0 +1,25 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:bookshelf"
+		},
+		"title": {
+			"translate": "Old Librarian"
+		},
+		"description": {
+			"translate": "Find and open a chest in a stronghold library"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"criteria": {
+		"open_buried_treasure": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/stronghold_library"
+			}
+		}
+	},
+	"parent": "minecraft:adventure/root"
+}

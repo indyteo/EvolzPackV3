@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "Powerful Tools"
+    },
+    "description": {
+      "translate": "Collect every Netherite Tools"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "netherite_tools": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_sword"
+          },
+          {
+            "item": "minecraft:netherite_pickaxe"
+          },
+          {
+            "item": "minecraft:netherite_axe"
+          },
+          {
+            "item": "minecraft:netherite_shovel"
+          },
+          {
+            "item": "minecraft:netherite_hoe"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "minecraft:nether/obtain_ancient_debris"
+}

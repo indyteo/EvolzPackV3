@@ -1,0 +1,22 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier"
+		},
+		"title": {
+			"translate": "\\n"
+		},
+		"description": {
+			"translate": "<br />"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame": "task"
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "evolzpack:mythology/heroes/minotaure"
+}

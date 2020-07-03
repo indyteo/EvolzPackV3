@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:globe_banner_pattern"
+        },
+        "title": "Mythology advancements",
+        "description": "Let's meet every gods",
+        "background": "minecraft:textures/block/chiseled_quartz_block.png",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gold_nugget"
+                    }
+                ]
+            }
+        }
+	}
+}

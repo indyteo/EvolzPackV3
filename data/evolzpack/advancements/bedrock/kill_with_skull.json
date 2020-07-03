@@ -1,0 +1,112 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:zombie_head"
+		},
+		"title": {
+			"translate": "Shadow Assassin"
+		},
+		"description": {
+			"translate": "Kill a zombie, skeleton, creeper or wither skeleton with the corresponding skull on your head"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"kill_zombie": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:zombie"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"item": "minecraft:zombie_head"
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"kill_skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:skeleton"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"item": "minecraft:skeleton_skull"
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"kill_creeper": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:creeper"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"item": "minecraft:creeper_head"
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"kill_wither_skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither_skeleton"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"item": "minecraft:wither_skeleton_skull"
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:bedrock/root",
+	"requirements": [
+		[
+			"kill_zombie",
+			"kill_skeleton",
+			"kill_creeper",
+			"kill_wither_skeleton"
+		]
+	]
+}

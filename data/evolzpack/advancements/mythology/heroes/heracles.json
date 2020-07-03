@@ -1,0 +1,26 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:potion",
+			"nbt": "{Potion:\"minecraft:strong_strengh\"}"
+		},
+		"title": "Héraclès",
+		"description": "Inflict at least 9 hearts of damage in one single hit",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"breed_horskey": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 18
+					}
+				}
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/heroes/cyclope"
+}

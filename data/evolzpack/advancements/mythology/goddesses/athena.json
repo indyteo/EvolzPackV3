@@ -1,0 +1,146 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crafting_table"
+		},
+		"title": "Athéna",
+		"description": "Get every profession block",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"blast_furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:blast_furnace"
+					}
+				]
+			}
+		},
+		"smoker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:smoker"
+					}
+				]
+			}
+		},
+		"cartography_table": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:cartography_table"
+					}
+				]
+			}
+		},
+		"brewing_stand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:brewing_stand"
+					}
+				]
+			}
+		},
+		"composter": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:composter"
+					}
+				]
+			}
+		},
+		"barrel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "minecraft:barrel"
+					}
+				]
+			}
+		},
+		"fletching_table": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:fletching_table"
+					}
+				]
+			}
+		},
+		"cauldron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:cauldron"
+					}
+				]
+			}
+		},
+		"lectern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:lectern"
+					}
+				]
+			}
+		},
+		"stonecutter": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:stonecutter"
+					}
+				]
+			}
+		},
+		"loom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:loom"
+					}
+				]
+			}
+		},
+		"smithing_table": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:smithing_table"
+					}
+				]
+			}
+		},
+		"grindstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item": "minecraft:grindstone"
+					}
+				]
+			}
+		}
+	},
+	"parent": "evolzpack:mythology/goddesses/artemis"
+}
