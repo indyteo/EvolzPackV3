@@ -1,0 +1,23 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:saddle"
+		},
+		"title": {
+			"translate": "Strider Drop"
+		},
+		"description": {
+			"translate": "Fall from at least 30 blocks in lava"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"drop_in_lava_on_strider": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "minecraft:nether/ride_strider"
+}

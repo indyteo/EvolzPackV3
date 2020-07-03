@@ -15,3 +15,6 @@ execute as @a[advancements={evolzpack:bedrock/fly_into_small_hole=false},nbt={Fa
 
 # Flying Pig
 execute as @a[advancements={evolzpack:bedrock/flying_pig=false},nbt={RootVehicle:{Entity:{id:"minecraft:pig"}}}] run function evolzpack:flying_pig
+
+# Strider Drop
+execute as @a[advancements={evolzpack:nether/strider_drop=false},nbt={RootVehicle:{Entity:{id:"minecraft:strider"}}}] run function evolzpack:strider_drop
