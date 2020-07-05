@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "evolzpack:launch_white_ball_fireworks"
+		"function": "evolzpack:advancements/launch_white_ball_fireworks"
 	}
 }

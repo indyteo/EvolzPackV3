@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "evolzpack:tame_wolf"
+		"function": "evolzpack:advancements/tame_wolf"
 	}
 }

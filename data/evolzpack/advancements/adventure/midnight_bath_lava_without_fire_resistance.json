@@ -36,6 +36,6 @@
 		}
 	},
 	"rewards": {
-		"function": "evolzpack:lava_without_fire_resistance"
+		"function": "evolzpack:advancements/lava_without_fire_resistance"
 	}
 }
