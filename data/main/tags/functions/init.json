@@ -1,6 +1,5 @@
 {
     "values": [
-        "main:init",
-        "player_graves:init"
+        "main:init"
     ]
 }

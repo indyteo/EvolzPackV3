@@ -1,6 +1,5 @@
 {
     "values": [
-        "main:uninstall_message",
-        "player_graves:uninstall"
+        "main:uninstall_message"
     ]
 }
