@@ -51,6 +51,6 @@
 		]
 	],
 	"rewards": {
-		"function": "evolzpack:cook_chicken"
+		"function": "evolzpack:advancements/cook_chicken"
 	}
 }
