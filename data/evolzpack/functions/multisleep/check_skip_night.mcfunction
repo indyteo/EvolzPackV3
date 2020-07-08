@@ -12,3 +12,5 @@ function evolzpack:multisleep/display
 
 execute if score skipNight VAR matches 1 if score Time VAR matches 12541..23458 unless score sleepingPercent VAR >= SLEEP_PERCENT CONST run function evolzpack:multisleep/dont_skip_night
 execute if score sleepingPercent VAR >= SLEEP_PERCENT CONST run function evolzpack:multisleep/skip_night
+
+execute if score totalSleeping VAR matches 0 run bossbar set multisleep visible false

@@ -15,7 +15,223 @@
 		"hidden": false
 	},
 	"criteria": {
-		"ride_minecart": {
+		"sprint_the_world_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:sprint_one_cm",
+										"value": {
+											"min": 100000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sprint_the_world_2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:sprint_one_cm",
+										"value": {
+											"min": 200000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sprint_the_world_3": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:sprint_one_cm",
+										"value": {
+											"min": 300000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sprint_the_world_4": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:sprint_one_cm",
+										"value": {
+											"min": 400000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sprint_the_world_5": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:sprint_one_cm",
+										"value": {
+											"min": 500000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sprint_the_world_6": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:sprint_one_cm",
+										"value": {
+											"min": 600000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sprint_the_world_7": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:sprint_one_cm",
+										"value": {
+											"min": 700000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sprint_the_world_8": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:sprint_one_cm",
+										"value": {
+											"min": 800000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sprint_the_world_9": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:sprint_one_cm",
+										"value": {
+											"min": 900000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sprint_the_world": {
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": [
