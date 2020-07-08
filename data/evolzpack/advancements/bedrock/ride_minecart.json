@@ -15,7 +15,223 @@
 		"hidden": false
 	},
 	"criteria": {
-		"ride_minecart": {
+		"ride_minecart_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:minecart_one_cm",
+										"value": {
+											"min": 10000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ride_minecart_2": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:minecart_one_cm",
+										"value": {
+											"min": 20000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ride_minecart_3": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:minecart_one_cm",
+										"value": {
+											"min": 30000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ride_minecart_4": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:minecart_one_cm",
+										"value": {
+											"min": 40000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ride_minecart_5": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:minecart_one_cm",
+										"value": {
+											"min": 50000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ride_minecart_6": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:minecart_one_cm",
+										"value": {
+											"min": 60000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ride_minecart_7": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:minecart_one_cm",
+										"value": {
+											"min": 70000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ride_minecart_8": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:minecart_one_cm",
+										"value": {
+											"min": 80000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ride_minecart_9": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:minecart_one_cm",
+										"value": {
+											"min": 90000
+										}
+									}
+								]
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"ride_minecart_full": {
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": [

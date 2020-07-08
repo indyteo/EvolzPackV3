@@ -34,6 +34,6 @@
 		}
 	},
 	"rewards": {
-		"function": "evolzpack:burn_without_fire_resistance"
+		"function": "evolzpack:advancements/burn_without_fire_resistance"
 	}
 }

@@ -40,6 +40,6 @@
 		}
 	},
 	"rewards": {
-		"function": "evolzpack:top_of_world"
+		"function": "evolzpack:advancements/top_of_world"
 	}
 }
