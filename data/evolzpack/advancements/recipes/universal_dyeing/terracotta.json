@@ -1,0 +1,53 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "evolzpack:terracotta"
+                    }
+                ]
+            }
+        },
+        "has_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "evolzpack:dyes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_block"
+        ],
+        [
+            "has_dye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "evolzpack:universal_dyeing/white_terracotta",
+            "evolzpack:universal_dyeing/orange_terracotta",
+            "evolzpack:universal_dyeing/magenta_terracotta",
+            "evolzpack:universal_dyeing/light_blue_terracotta",
+            "evolzpack:universal_dyeing/yellow_terracotta",
+            "evolzpack:universal_dyeing/lime_terracotta",
+            "evolzpack:universal_dyeing/pink_terracotta",
+            "evolzpack:universal_dyeing/gray_terracotta",
+            "evolzpack:universal_dyeing/light_gray_terracotta",
+            "evolzpack:universal_dyeing/cyan_terracotta",
+            "evolzpack:universal_dyeing/purple_terracotta",
+            "evolzpack:universal_dyeing/blue_terracotta",
+            "evolzpack:universal_dyeing/brown_terracotta",
+            "evolzpack:universal_dyeing/green_terracotta",
+            "evolzpack:universal_dyeing/red_terracotta",
+            "evolzpack:universal_dyeing/black_terracotta"
+        ]
+    }
+}

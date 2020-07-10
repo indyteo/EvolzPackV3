@@ -1,0 +1,53 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "evolzpack:wool"
+                    }
+                ]
+            }
+        },
+        "has_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "evolzpack:dyes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_block"
+        ],
+        [
+            "has_dye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "evolzpack:universal_dyeing/white_wool",
+            "evolzpack:universal_dyeing/orange_wool",
+            "evolzpack:universal_dyeing/magenta_wool",
+            "evolzpack:universal_dyeing/light_blue_wool",
+            "evolzpack:universal_dyeing/yellow_wool",
+            "evolzpack:universal_dyeing/lime_wool",
+            "evolzpack:universal_dyeing/pink_wool",
+            "evolzpack:universal_dyeing/gray_wool",
+            "evolzpack:universal_dyeing/light_gray_wool",
+            "evolzpack:universal_dyeing/cyan_wool",
+            "evolzpack:universal_dyeing/purple_wool",
+            "evolzpack:universal_dyeing/blue_wool",
+            "evolzpack:universal_dyeing/brown_wool",
+            "evolzpack:universal_dyeing/green_wool",
+            "evolzpack:universal_dyeing/red_wool",
+            "evolzpack:universal_dyeing/black_wool"
+        ]
+    }
+}

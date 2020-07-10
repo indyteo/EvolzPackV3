@@ -1,16 +1,13 @@
-scoreboard objectives add CONST dummy
-scoreboard objectives add VAR dummy
+scoreboard objectives add CONST dummy "Global - Constants"
+scoreboard objectives add VAR dummy "Global - Variables"
 
-# Const
+# Consts
 scoreboard players set 100 CONST 100
 
-# Advancements
-scoreboard objectives add BellsRung minecraft.custom:minecraft.bell_ring
-scoreboard objectives add FallingPigs dummy
-scoreboard objectives add FallingStrider dummy
-scoreboard objectives add TamedWolf dummy
+# Setup
+execute unless score SetupDone VAR matches 0.. run function evolzpack:setup
 
-# Multiplayer Sleep
-function evolzpack:multisleep/init
+# Features init
+function #evolzpack:init
 
 tellraw @a ["",{"text":"Reload successful!"}]

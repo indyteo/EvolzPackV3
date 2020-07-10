@@ -1,0 +1,53 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "evolzpack:stained_glass"
+                    }
+                ]
+            }
+        },
+        "has_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "evolzpack:dyes"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_block"
+        ],
+        [
+            "has_dye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "evolzpack:universal_dyeing/white_stained_glass",
+            "evolzpack:universal_dyeing/orange_stained_glass",
+            "evolzpack:universal_dyeing/magenta_stained_glass",
+            "evolzpack:universal_dyeing/light_blue_stained_glass",
+            "evolzpack:universal_dyeing/yellow_stained_glass",
+            "evolzpack:universal_dyeing/lime_stained_glass",
+            "evolzpack:universal_dyeing/pink_stained_glass",
+            "evolzpack:universal_dyeing/gray_stained_glass",
+            "evolzpack:universal_dyeing/light_gray_stained_glass",
+            "evolzpack:universal_dyeing/cyan_stained_glass",
+            "evolzpack:universal_dyeing/purple_stained_glass",
+            "evolzpack:universal_dyeing/blue_stained_glass",
+            "evolzpack:universal_dyeing/brown_stained_glass",
+            "evolzpack:universal_dyeing/green_stained_glass",
+            "evolzpack:universal_dyeing/red_stained_glass",
+            "evolzpack:universal_dyeing/black_stained_glass"
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "evolzpack:wool"
+        },
+        "O": {
+            "item": "minecraft:black_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:black_wool",
+        "count": 8
+    },
+    "group": "universal_dyeing_wool"
+}
