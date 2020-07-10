@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "evolzpack:terracotta"
+        },
+        "O": {
+            "item": "minecraft:ice"
+        }
+    },
+    "result": {
+        "item": "minecraft:terracotta",
+        "count": 8
+    },
+    "group": ""
+}

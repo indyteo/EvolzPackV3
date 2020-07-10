@@ -1,7 +1,7 @@
 ﻿{
 	"display": {
 		"icon": {
-			"item": "diamond"
+			"item": "minecraft:diamond"
 		},
 		"title": {
 			"translate": "Diamonds to you!"
@@ -9,7 +9,7 @@
 		"description": {
 			"translate": "Throw diamonds at another player"
 		},
-		"frame": "task",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

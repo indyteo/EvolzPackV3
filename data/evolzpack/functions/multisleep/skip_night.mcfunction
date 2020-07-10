@@ -1,5 +1,7 @@
-scoreboard players set skipNight VAR 1
+# Start night skipping
+scoreboard players set MultiSleep.skipNight VAR 1
 
-title @a times 5 50 5
-title @a title ""
+# Display feedback
+title @a[nbt={Dimension:"minecraft:overworld"}] times 5 50 5
+title @a[nbt={Dimension:"minecraft:overworld"}] title ""
 title @a[nbt={Dimension:"minecraft:overworld"}] subtitle {"text":"Passage de la nuit...","color":"gray"}

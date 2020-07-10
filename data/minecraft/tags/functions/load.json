@@ -1,7 +1,5 @@
 {
 	"values": [
-		"evolzpack:init",
-		"vb:deathbook/setup",
-		"#main:init"
+		"evolzpack:init"
 	]
 }

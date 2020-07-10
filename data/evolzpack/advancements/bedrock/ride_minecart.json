@@ -4,10 +4,10 @@
 			"item": "minecraft:minecart"
 		},
 		"title": {
-			"translate": "A Long Railroad"
+			"translate": "On A Rail"
 		},
 		"description": {
-			"translate": "Ride a minecart during 1 km"
+			"translate": "Travel by minecart at least 1 km from where you started"
 		},
 		"frame": "challenge",
 		"show_toast": true,
