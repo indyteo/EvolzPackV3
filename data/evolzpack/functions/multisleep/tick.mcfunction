@@ -11,4 +11,4 @@ execute if score MultiSleep.skipNight VAR matches 1 unless score Time VAR matche
 execute unless score Time VAR matches 12541..23458 run bossbar set multisleep.main visible false
 
 # Display sleeping players
-execute unless score MultiSleep.totalSleeping VAR matches 0 if score Time VAR matches 12541..23458 run title @a[nbt={Dimension:"minecraft:overworld"}] actionbar [{"text":"Couchés : ","color":"gray"},{"selector":"@a[scores={MultiSleep.sleep=1},nbt={Dimension:\"minecraft:overworld\"}]","color":"green"},{"text":" | Réveillés : ","color":"gray"},{"selector":"@a[scores={MultiSleep.sleep=0},nbt={Dimension:\"minecraft:overworld\"}]","color":"red"}]
+execute if score MultiSleep.totalSleeping VAR matches 1.. if score Time VAR matches 12541..23458 run title @a[nbt={Dimension:"minecraft:overworld"},team=!Afk.main] actionbar [{"text":"Couchés : ","color":"gray"},{"selector":"@a[scores={MultiSleep.sleep=1},nbt={Dimension:\"minecraft:overworld\"},team=!Afk.main]","color":"green"},{"text":" | Réveillés : ","color":"gray"},{"selector":"@a[scores={MultiSleep.sleep=0},nbt={Dimension:\"minecraft:overworld\"},team=!Afk.main]","color":"red"}]

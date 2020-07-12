@@ -4,6 +4,7 @@
 		"evolzpack:multisleep/tick",
 		"evolzpack:dimdisabler/tick",
 		"evolzpack:deathbook/tick",
-		"evolzpack:misc/tick"
+		"evolzpack:misc/tick",
+		"evolzpack:afk/tick"
 	]
 }
