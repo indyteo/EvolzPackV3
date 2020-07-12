@@ -3,7 +3,7 @@ advancement revoke @s only evolzpack:special/multisleep/change_dimension
 
 # Count overworld players
 scoreboard players set MultiSleep.overworldPlayerCount VAR 0
-execute as @a[nbt={Dimension:"minecraft:overworld"}] run scoreboard players add MultiSleep.overworldPlayerCount VAR 1
+execute as @a[nbt={Dimension:"minecraft:overworld"},team=!Afk.main] run scoreboard players add MultiSleep.overworldPlayerCount VAR 1
 
 # Calculate overworld sleeping player percent
 scoreboard players operation MultiSleep.sleepingPercent VAR = MultiSleep.totalSleeping VAR

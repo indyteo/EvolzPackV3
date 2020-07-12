@@ -3,6 +3,8 @@
 		"evolzpack:advancements/init",
 		"evolzpack:multisleep/init",
 		"evolzpack:dimdisabler/init",
-		"evolzpack:deathbook/init"
+		"evolzpack:deathbook/init",
+		"evolzpack:misc/init",
+		"evolzpack:afk/init"
 	]
 }

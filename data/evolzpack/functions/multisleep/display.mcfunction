@@ -1,5 +1,5 @@
 # Define visibility to overworld players
-bossbar set multisleep.main players @a[nbt={Dimension:"minecraft:overworld"}]
+bossbar set multisleep.main players @a[nbt={Dimension:"minecraft:overworld"},team=!Afk.main]
 
 # Manage bossbar fill
 execute store result bossbar multisleep.main max run scoreboard players get MultiSleep.overworldPlayerCount VAR
