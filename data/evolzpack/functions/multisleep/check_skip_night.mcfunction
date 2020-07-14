@@ -5,6 +5,10 @@ advancement revoke @s only evolzpack:special/multisleep/change_dimension
 scoreboard players set MultiSleep.overworldPlayerCount VAR 0
 execute as @a[nbt={Dimension:"minecraft:overworld"},team=!Afk.main] run scoreboard players add MultiSleep.overworldPlayerCount VAR 1
 
+# Count total sleeping players
+scoreboard players set MultiSleep.totalSleeping VAR 0
+execute as @a[tag=MultiSleep.sleep] run scoreboard players add MultiSleep.totalSleeping VAR 1
+
 # Calculate overworld sleeping player percent
 scoreboard players operation MultiSleep.sleepingPercent VAR = MultiSleep.totalSleeping VAR
 scoreboard players operation MultiSleep.sleepingPercent VAR *= 100 CONST
@@ -18,4 +22,8 @@ execute if score MultiSleep.skipNight VAR matches 1 if score Time VAR matches 12
 execute if score MultiSleep.sleepingPercent VAR >= SLEEP_PERCENT CONST run function evolzpack:multisleep/skip_night
 
 # Hide bossbar if everybody is awake
-execute if score MultiSleep.totalSleeping VAR matches 0 run bossbar set multisleep.main visible false
+execute unless entity @a[tag=MultiSleep.sleep] run bossbar set multisleep.main visible false
+
+# Update players team
+execute if entity @a[tag=MultiSleep.sleep] as @a[team=!Afk.main] run function evolzpack:multisleep/set_team
+execute unless entity @a[tag=MultiSleep.sleep] as @a[team=!Afk.main] run team leave @s

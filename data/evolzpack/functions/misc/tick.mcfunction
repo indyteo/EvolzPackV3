@@ -26,3 +26,14 @@ execute as @a[nbt={Dimension:"minecraft:the_end"}] in the_end at @s if entity @s
 #######################
 
 execute as @a if score @s Misc.playerKill matches 1.. at @s run function evolzpack:misc/player_kill
+
+
+#######################
+# Night Vision Helmet #
+#######################
+
+execute as @a[nbt={Dimension:"minecraft:the_nether",Inventory:[{Slot:103b,id:"minecraft:netherite_helmet"}]}] if score @s night_vision matches 1 run effect give @s minecraft:night_vision 15 0 true
+execute as @a unless score @s night_vision = @s Misc.nvTrigger run function evolzpack:misc/nv_trigger
+
+execute as @a run scoreboard players operation @s Misc.nvTrigger = @s night_vision
+scoreboard players enable @a night_vision

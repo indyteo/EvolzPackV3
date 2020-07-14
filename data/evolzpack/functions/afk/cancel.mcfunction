@@ -1,2 +1,2 @@
 function evolzpack:afk/silent_cancel
-tellraw @a [{"selector":"@s"},{"text":" n'est plus AFK"}]
+tellraw @a [{"selector":"@s"},{"text":" n'est plus AFK","color":"white"}]

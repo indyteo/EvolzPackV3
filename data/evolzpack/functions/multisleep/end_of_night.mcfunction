@@ -1,5 +1,5 @@
 # Clear weather
-weather clear
+weather clear 1800
 
 # Reset night skipping
 scoreboard players set MultiSleep.skipNight VAR 0
