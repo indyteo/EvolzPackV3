@@ -32,8 +32,8 @@ execute as @a if score @s Misc.playerKill matches 1.. at @s run function evolzpa
 # Night Vision Helmet #
 #######################
 
-execute as @a[nbt={Dimension:"minecraft:the_nether",Inventory:[{Slot:103b,id:"minecraft:netherite_helmet"}]}] if score @s night_vision matches 1 run effect give @s minecraft:night_vision 15 0 true
+execute as @a[nbt={Dimension:"minecraft:the_nether",Inventory:[{Slot:103b,id:"minecraft:netherite_helmet",tag:{Upgraded:1b}}]}] run function evolzpack:misc/night_vision_helmet
+execute as @a[nbt=!{Dimension:"minecraft:the_nether",Inventory:[{Slot:103b,id:"minecraft:netherite_helmet",tag:{Upgraded:1b}}]}] run function evolzpack:misc/disable_night_vision
 execute as @a unless score @s night_vision = @s Misc.nvTrigger run function evolzpack:misc/nv_trigger
 
 execute as @a run scoreboard players operation @s Misc.nvTrigger = @s night_vision
-scoreboard players enable @a night_vision
