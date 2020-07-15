@@ -9,4 +9,11 @@ scoreboard objectives add MultiSleep.sleep dummy "Multiplayer Sleep - Sleeping"
 # Setup bossbar
 bossbar add multisleep.main "Multiplayer Sleep by indyteo"
 bossbar set multisleep.main style progress
-bossbar set multisleep.main color green
+
+# Team setup
+team add MultiSleep.sleep "Multiplayer Sleep - Sleeping"
+team modify MultiSleep.sleep color green
+team modify MultiSleep.sleep suffix [{"text":" "},{"text":"✔","color":"dark_green"}]
+team add MultiSleep.awake "Multiplayer Sleep - Awake"
+team modify MultiSleep.awake color red
+team modify MultiSleep.awake suffix [{"text":" "},{"text":"✖","color":"dark_red"}]
