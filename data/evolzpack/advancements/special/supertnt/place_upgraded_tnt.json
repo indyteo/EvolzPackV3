@@ -1,0 +1,16 @@
+﻿{
+  "criteria": {
+    "place_upgraded_tnt": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tnt",
+          "nbt": "{Upgraded:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evolzpack:supertnt/place_upgraded_tnt"
+  }
+}
