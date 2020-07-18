@@ -4,6 +4,10 @@
 ## Bienvenue !
 Bienvenue sur le repository du *DataPack* de la **saison 3 du survie d'EvolzMC**, par *[indyteo](/indyteo "Accéder au profil de indyteo")* & *[BlooSkyd](/BlooSkyd "Accéder au profil de BlooSkyd")* !
 
+> Notre **survie vanilla** a pour but de **rapprocher** les joueurs et de leur offre la possibilité de **se retrouver** quelque-part et **s'amuser** ! Tout ça se fait en **survie**, dans un esprit très décontracté.
+> Mais ne vous y fiez pas, la **difficulté** y est élevée et les monstres y sont féroces !
+> Les joueurs doivent **s'entre-aider** afin d'évoluer dans ce tout nouveau monde. Après quoi tout le monde est libre de faire ses **projets** de construction !
+
 ## Discord
 Rejoignez notre serveur **Discord** pour savoir comment participer : *[https://discord.gg/BqxpXZX](https://discord.gg/BqxpXZX "Notre serveur Discord")*
 
