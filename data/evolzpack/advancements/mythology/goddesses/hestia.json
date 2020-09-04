@@ -53,12 +53,12 @@
 				"tag": "evolzpack:lanterns"
 			}
 		},
-        "door": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "tag": "minecraft:doors"
-            }
-        }
+		"door": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"tag": "minecraft:doors"
+			}
+		}
 	},
 	"parent": "evolzpack:mythology/goddesses/hera"
 }

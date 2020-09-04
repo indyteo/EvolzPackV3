@@ -14,7 +14,7 @@
 		"frame": "task"
 	},
 	"criteria": {
-		"breed_horskey": {
+		"listen_music": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": {

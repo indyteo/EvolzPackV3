@@ -7,14 +7,14 @@
 			"translate": "Héphaïstos"
 		},
 		"description": {
-			"translate": "Lit up a campfire with a fire charge"
+			"translate": "Lit up a campfire"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"frame": "task"
 	},
 	"criteria": {
-		"breed_horskey": {
+		"lit_campfire": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": {

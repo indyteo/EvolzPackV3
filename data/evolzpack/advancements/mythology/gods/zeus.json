@@ -10,7 +10,7 @@
 		"frame": "task"
 	},
 	"criteria": {
-		"breed_horskey": {
+		"hit_with_lightning_bolt": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {

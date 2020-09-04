@@ -7,6 +7,7 @@
 		"evolzpack:misc/tick",
 		"evolzpack:afk/tick",
 		"evolzpack:customtrade/tick",
-		"evolzpack:supertnt/tick"
+		"evolzpack:supertnt/tick",
+		"evolzpack:mobcounter/tick"
 	]
 }

@@ -1,0 +1,43 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_head"
+		},
+		"title": "Hydre de Lerne",
+		"description": "Kill a Wither in a swamp",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"criteria": {
+		"kill_wither_in_swamp": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither",
+					"location": {
+						"biome": "minecraft:swamp"
+					}
+				}
+			}
+		},
+		"kill_wither_in_swamp_hills": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither",
+					"location": {
+						"biome": "minecraft:swamp_hills"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"kill_wither_in_swamp",
+			"kill_wither_in_swamp_hills"
+		]
+	],
+	"parent": "evolzpack:mythology/heroes/heracles"
+}
