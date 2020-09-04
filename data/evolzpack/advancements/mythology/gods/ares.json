@@ -10,7 +10,7 @@
 		"frame": "task"
 	},
 	"criteria": {
-		"kill_drowned": {
+		"hurt_zombified_piglin": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {

@@ -10,7 +10,7 @@
 		"frame": "task"
 	},
 	"criteria": {
-		"breed_horskey": {
+		"breed_hoglins": {
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {

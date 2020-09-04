@@ -5,6 +5,7 @@
 		"evolzpack:dimdisabler/init",
 		"evolzpack:deathbook/init",
 		"evolzpack:misc/init",
-		"evolzpack:afk/init"
+		"evolzpack:afk/init",
+		"evolzpack:mobcounter/init"
 	]
 }

@@ -11,7 +11,7 @@
         "frame": "challenge"
     },
     "criteria": {
-        "start": {
+        "obtain_golden_nugget": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

@@ -7,14 +7,14 @@
 			"translate": "Héra"
 		},
 		"description": {
-			"translate": "Breed bees to create life !"
+			"translate": "Breed bees to create life!"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"frame": "task"
 	},
 	"criteria": {
-		"breed_horskey": {
+		"breed_bees": {
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {

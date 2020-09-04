@@ -2,6 +2,7 @@ scoreboard objectives add CONST dummy "Global - Constants"
 scoreboard objectives add VAR dummy "Global - Variables"
 
 # Consts
+scoreboard players set 0 CONST 0
 scoreboard players set 100 CONST 100
 
 # Setup

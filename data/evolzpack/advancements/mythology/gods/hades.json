@@ -7,14 +7,14 @@
 			"translate": "Hadès"
 		},
 		"description": {
-			"translate": "Use a fire charge on soul sand"
+			"translate": "Create soul fire"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"frame": "task"
 	},
 	"criteria": {
-		"breed_horskey": {
+		"soul_fire": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": {

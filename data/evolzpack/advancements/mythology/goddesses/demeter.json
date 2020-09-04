@@ -7,14 +7,14 @@
 			"translate": "Démeter"
 		},
 		"description": {
-			"translate": "Dig ground to produce renewable food"
+			"translate": "Till the ground to produce renewable food"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"frame": "task"
 	},
 	"criteria": {
-		"breed_horskey": {
+		"till_ground": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": {

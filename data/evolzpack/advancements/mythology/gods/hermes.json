@@ -14,7 +14,7 @@
 		"frame": "task"
 	},
 	"criteria": {
-		"breed_horskey": {
+		"place_book_in_lectern": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": {
